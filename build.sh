@@ -69,10 +69,17 @@ for arch in arm64 x86_64; do
         versions+=("${base#"$prefix"-}")
     done
 
+    # The welcome page and the descriptions of the choices, in the eight languages, with the
+    # versions of this build written in.
+    cp -R resources "$work/resources"
+    find "$work/resources" -type f \( -name welcome.html -o -name Localizable.strings \) -exec sed -i '' \
+        -e "s/{SUITE}/$version/g" -e "s/{EXPLORER}/$explorer_version/g" -e "s/{NOTEPAD}/${versions[0]}/g" \
+        -e "s/{PAINT}/${versions[1]}/g" -e "s/{MIN}/${explorer_minimum%.0}/g" {} +
     cat > "$work/Distribution" <<XML
 <?xml version="1.0" encoding="utf-8"?>
 <installer-gui-script minSpecVersion="2">
-  <title>My Suite</title>
+  <title>My Suite $version</title>
+  <welcome file="welcome.html" mime-type="text/html"/>
   <options customize="always" hostArchitectures="$arch"/>
   <domains enable_anywhere="false" enable_currentUserHome="false" enable_localSystem="true"/>
   <volume-check><allowed-os-versions><os-version min="12.0"/></allowed-os-versions></volume-check>
@@ -84,14 +91,14 @@ for arch in arm64 x86_64; do
     <line choice="notepad"/>
     <line choice="paint"/>
   </choices-outline>
-  <choice id="explorer" title="My Explorer $explorer_version" description="File manager. Requires macOS $explorer_minimum or later."
+  <choice id="explorer" title="My Explorer $explorer_version" description="explorer.description"
           enabled="explorerFits()" selected="explorerFits()">
     <pkg-ref id="io.github.leoars.myexplorer.pkg"/>
   </choice>
-  <choice id="notepad" title="My Notepad ${versions[0]}" description="Plain-text editor.">
+  <choice id="notepad" title="My Notepad ${versions[0]}" description="notepad.description">
     <pkg-ref id="local.mynotepad.editor.pkg"/>
   </choice>
-  <choice id="paint" title="My Paint ${versions[1]}" description="Image editor.">
+  <choice id="paint" title="My Paint ${versions[1]}" description="paint.description">
     <pkg-ref id="local.mypaint.editor.pkg"/>
   </choice>
   <pkg-ref id="io.github.leoars.myexplorer.pkg" version="$explorer_version.$explorer_build">Explorer.pkg</pkg-ref>
@@ -100,7 +107,7 @@ for arch in arm64 x86_64; do
 </installer-gui-script>
 XML
     name="My-Suite-$version-$arch.pkg"
-    productbuild ${signing[@]+"${signing[@]}"} --distribution "$work/Distribution" --package-path "$work" "$work/$name" >/dev/null
+    productbuild ${signing[@]+"${signing[@]}"} --distribution "$work/Distribution" --resources "$work/resources" --package-path "$work" "$work/$name" >/dev/null
 
     # Check what the installer would put in /Applications, without installing it.
     pkgutil --expand-full "$work/$name" "$work/check"

@@ -12,8 +12,8 @@ Three simple, straightforward apps for macOS, with the menus and shortcuts you a
 
 ## Install
 
-- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0/My-Suite-1.0-arm64.pkg)**
-- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0/My-Suite-1.0-x86_64.pkg)**
+- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-arm64.pkg)**
+- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-x86_64.pkg)**
 
 Open the installer and, under **Customize**, choose which apps to install. All three come selected. The installer is signed with Developer ID and notarized by Apple.
 

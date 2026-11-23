@@ -12,8 +12,8 @@ Três aplicativos para macOS simples e diretos, com os menus e os atalhos de sem
 
 ## Instalar
 
-- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0/My-Suite-1.0-arm64.pkg)**
-- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0/My-Suite-1.0-x86_64.pkg)**
+- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-arm64.pkg)**
+- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-x86_64.pkg)**
 
 Abra o instalador e, em **Personalizar**, escolha quais aplicativos instalar. Os três vêm marcados. O instalador é assinado com Developer ID e notarizado pela Apple.
 

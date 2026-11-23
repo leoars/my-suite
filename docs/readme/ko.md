@@ -6,10 +6,10 @@
 
 ## 설치
 
-- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-arm64.pkg)**
-- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-x86_64.pkg)**
+- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
+- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
 
-설치 프로그램에는 My Explorer 1.0.1, My Notepad 1.0.2, My Paint 1.0이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
+설치 프로그램에는 My Explorer 1.0.1, My Notepad 1.0.3, My Paint 1.0이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
 
 macOS 12 이상이 필요합니다. My Explorer는 macOS 14 이상이 필요하며, 이전 버전에서는 선택되지 않은 상태로 표시되고 나머지 두 앱은 정상적으로 설치됩니다.
 

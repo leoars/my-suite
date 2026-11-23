@@ -6,10 +6,10 @@ Trois applications pour macOS, simples et directes, avec les menus et les raccou
 
 ## Installer
 
-- **[Télécharger pour Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-arm64.pkg)**
-- **[Télécharger pour Intel](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-x86_64.pkg)**
+- **[Télécharger pour Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
+- **[Télécharger pour Intel](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
 
-Le programme d’installation contient My Explorer 1.0.1, My Notepad 1.0.2 et My Paint 1.0. Ouvrez-le et, dans **Personnaliser**, choisissez les applications à installer ; les trois sont cochées. Il est signé avec Developer ID et notarié par Apple, et il est disponible en anglais, portugais, espagnol, français, allemand, italien, japonais et coréen.
+Le programme d’installation contient My Explorer 1.0.1, My Notepad 1.0.3 et My Paint 1.0. Ouvrez-le et, dans **Personnaliser**, choisissez les applications à installer ; les trois sont cochées. Il est signé avec Developer ID et notarié par Apple, et il est disponible en anglais, portugais, espagnol, français, allemand, italien, japonais et coréen.
 
 Nécessite macOS 12 ou ultérieur. My Explorer nécessite macOS 14 ou ultérieur : sur les versions antérieures, il apparaît décoché et les deux autres s’installent normalement.
 

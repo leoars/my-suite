@@ -6,10 +6,10 @@ Three simple, straightforward apps for macOS, with the menus and shortcuts you a
 
 ## Install
 
-- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-arm64.pkg)**
-- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.1/My-Suite-1.0.1-x86_64.pkg)**
+- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
+- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
 
-The installer brings My Explorer 1.0.1, My Notepad 1.0.2 and My Paint 1.0. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
+The installer brings My Explorer 1.0.1, My Notepad 1.0.3 and My Paint 1.0. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
 
 Requires macOS 12 or later. My Explorer requires macOS 14 or later: on earlier versions it appears unselected and the other two are installed normally.
 

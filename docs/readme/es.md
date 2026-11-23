@@ -17,7 +17,7 @@ Requiere macOS 12 o posterior. My Explorer requiere macOS 14 o posterior: en ver
 
 Un gestor de archivos con árbol de carpetas, pestañas, barra de comandos y varias vistas, integrado con la Papelera, los volúmenes, iCloud y las aplicaciones del Mac.
 
-![Ventana de My Explorer en inglés, con una carpeta de fotos en Iconos grandes, el árbol de carpetas a la izquierda y el panel de vista previa a la derecha](../screenshots/explorer-en.png)
+![Ventana de My Explorer en español, con una carpeta de fotos en Iconos grandes, el árbol de carpetas a la izquierda y el panel de vista previa a la derecha](../screenshots/explorer-es.png)
 
 - **Navegación:** árbol con las carpetas del Mac, carpetas favoritas y recientes, pestañas con su propio historial, una barra de direcciones que se convierte en texto al hacer clic y un filtro de la carpeta con comodines (`*.pdf`).
 - **Cinco vistas**, recordadas por carpeta: Detalles, Lista, Iconos pequeños, Iconos grandes y Galería, con miniaturas de fotos y vídeos.

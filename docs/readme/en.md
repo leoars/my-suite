@@ -19,11 +19,58 @@ A file manager with a folder tree, tabs, a command bar and several views, workin
 
 ![My Explorer window in English, with a photo folder in Large icons, the folder tree on the left and the preview pane on the right](../screenshots/explorer-en.png)
 
-- **Navigation:** a tree with the Mac's folders, favorite and recent folders, tabs with their own history, an address bar that turns into text when clicked, and a folder filter with wildcards (`*.pdf`).
-- **Five views**, remembered per folder: Details, List, Small icons, Large icons and Gallery, with photo and video thumbnails.
-- **File operations:** copy and move with progress and pause, undo, a Trash with Put Back, ZIP, Properties with folder sizes, and fast deletion of thousands of files.
-- **Preview:** images, video, audio and PDF in the preview pane and in a viewer of its own.
-- **And more:** text from images and PDFs (OCR), iCloud Drive status, Amazon S3, password-protected folders, Git and connecting to SMB servers.
+### Navigation
+
+- Folder tree with Home, Desktop, Documents, Downloads, This Mac, Volumes, Cloud storage, Saved searches, iPhone and iPad, and Trash, plus favorite and recent folders.
+- Tabs, each with its own history, selection, sorting and filter.
+- A single address bar: the folder trail is clickable and turns into the path as text when you click it, with suggestions as you type.
+- **Back**, **Forward**, **Up** and **Refresh**; the list refreshes by itself when files change outside the app.
+- **Filter this folder** by name, with wildcards (`*.pdf`), and **Search Files…** by name, extension, content, date and tags, in this folder or across the whole Mac. Searches can be saved to the tree.
+
+### Views and sorting
+
+- Five modes, remembered per folder: **Details**, **List**, **Small icons**, **Large icons** and **Gallery**, with photo and video thumbnails.
+- **Sort** by name, date modified, type or size; in Details, drag the headers to change the order and width of the columns.
+- **Hidden items** and **File name extensions** in the View menu.
+
+### File operations
+
+- Command bar with **New**, **Cut**, **Copy**, **Paste**, **Rename**, **Share** and **Delete**.
+- Copy and move with progress, pause and verification. If the name already exists: replace, merge folders, keep both or skip.
+- **Undo** for up to 20 copies, moves and deletions in the session, and rename in place with F2.
+- Trash in the tree, with **Put Back**, **Delete Permanently…** and **Empty Trash…**.
+- **Compress to ZIP** and **Extract ZIP**, drag and drop between apps, **Open with…**, **Share…** (including AirDrop), Finder tags and **Copy path**.
+- **Properties** with path and permissions; on a volume, total, used and free capacity.
+- Quick actions for images and PDFs: rotate, convert to JPEG or PNG, and create a PDF.
+
+### Preview pane and media viewer
+
+- The preview pane shows images, video and audio with playback controls, PDFs with page navigation, and other types through Quick Look.
+- A viewer of its own opens images, videos and audio, moves through the folder's files with the arrow keys and zooms from 1% to 800%. Animated images (WebP, GIF, APNG) play.
+
+### Text recognition (OCR)
+
+- **Extract text…** from images and scanned PDFs, with language detection, to copy or save as TXT.
+- **Create searchable PDF…**, one file at a time or in batches of up to 50. Everything is done on the Mac itself.
+
+### iCloud and cloud storage
+
+- The state of each iCloud Drive item in the list (on the Mac, online only, downloading or uploading), one-click download with progress on the icon, and **Remove download from this Mac**.
+- Download a whole folder or just the selection, with a disk space reserve that is never exceeded.
+- Amazon S3: connect a bucket, browse, copy between the Mac and the cloud, move, create folders and delete, with credentials kept in the macOS Keychain. Azure Blob Storage and Google Cloud Storage are experimental.
+
+### Protected folders, Git and network
+
+- **Protect folder…** keeps a folder in a vault encrypted with AES-256 and opened with a password, which locks automatically when the session is locked, when the Mac sleeps and on quit.
+- Git: state badges on the files, the branch in the status bar, **View changes**, **View history**, commit, switch branches, fetch, pull and push, using the Git installed on the Mac.
+- Eject disks, **Connect to server…** over SMB and import photos from an iPhone or iPad.
+
+### Options and shortcuts
+
+- Restore the tabs or the last folder at launch, separate font sizes for the tree, the list, the menus and the bars, and a light or dark theme following the system.
+- The Ctrl shortcuts work the way you already know (Ctrl+C, Ctrl+V, F2, F5, Ctrl+T for a new tab), and so do their ⌘ equivalents.
+- Checks for new versions at launch and installs the one you accept.
+- Experimental and off by default: a command line tool and an MCP server let an AI assistant work in folders you authorize, for 24 hours.
 
 Requires macOS 14 or later. [Learn more about My Explorer](https://github.com/leoars/my-explorer)
 
@@ -34,10 +81,13 @@ A simple text editor: open a .txt file, write and save with the shortcuts you al
 ![My Notepad window in English, with a field notebook open and the Replace panel ready to change “bridge” into “footbridge”](../screenshots/notepad-en.png)
 
 - **Truly plain text:** no spell checker, no automatic substitutions and no hidden formatting.
-- **Find, Replace** and **Go To** a line by number.
-- **Encodings** ANSI, UTF-8 and UTF-16, detected automatically, keeping the file's line endings.
-- **Word wrap**, a choice of font and a status bar with line and column.
-- **Page Setup and Print**, with header and footer, and the .txt journal with `.LOG`.
+- **File:** **New**, **Open…**, **Save** and **Save As…**, with a prompt before you lose changes. The first time you open it, it offers to become the default editor for .txt files.
+- **Find…** with a direction and a match case option, **Replace** and **Replace All** in a panel that stays open while you work, and **Go To…** a line by its number.
+- **Encodings:** opens and saves ANSI (CP-1252), UTF-8, UTF-16 LE and UTF-16 BE, with automatic detection, and keeps the file's CRLF, LF or CR line endings.
+- **View:** **Word Wrap**, a choice of font, font size from the keyboard or with Ctrl and the mouse wheel, and a **Status Bar** with line and column.
+- **Printing:** **Page Setup…** with header, footer (`&f`, `&p`, `&d`, `&t`), margins, paper and orientation.
+- **Time/Date** with F5, and the .txt logbook: a file that starts with `.LOG` gets the time and date appended at the end each time it is opened.
+- **The usual shortcuts:** Ctrl+S, Ctrl+F, F3, Ctrl+H, Ctrl+G, Ctrl+Backspace and the rest, with their ⌘ equivalents.
 
 Requires macOS 12 or later. [Learn more about My Notepad](https://github.com/leoars/My-Notepad/blob/main/docs/readme/en.md)
 
@@ -47,11 +97,15 @@ A simple image editor: open an image, draw with pencils, brushes, shapes and tex
 
 ![My Paint window in English, with the Home tab and a blank canvas](../screenshots/paint-en.png)
 
-- **Tools:** pencil, eraser, fill with color, color picker, magnifier and text.
-- **Nine brushes** and the **23 shapes** of the gallery, with outline and fill.
-- **Colors:** Color 1 and Color 2, a 20-color palette and custom colors.
-- **Selection**, rectangular and free-form, with cut, copy and paste between apps.
-- **Image:** crop, resize, skew, rotate and flip.
+- **File:** opens and saves PNG, JPEG, BMP, GIF and TIFF, with **Recent pictures**, **Image Properties** and **Set as desktop background**.
+- **Tools:** pencil, eraser, fill with color, color picker, magnifier and text; the left button paints with Color 1 and the right button with Color 2.
+- **Nine brushes**, including the calligraphy brushes, airbrush, oil brush, crayon and watercolor brush, each with four sizes.
+- **23 shapes** in the gallery, with outline and fill in a solid color or a texture, adjustable with their handles before committing.
+- **Colors:** the 20-color palette, custom colors and **Edit Colors** by hue, saturation and luminosity or by red, green and blue.
+- **Selection:** rectangular, free-form and transparent; move, duplicate, stretch and paste between apps.
+- **Image:** crop, resize and skew, rotate, flip and invert color, on the selection or the whole picture.
+- **Text** with font, size, bold, italic, underline and strikethrough, and support for the Japanese and Korean input methods.
+- **View and print:** zoom from 12.5% to 800%, rulers, gridlines, full screen, thumbnail, **Print Preview** and undo with 50 levels.
 
 Requires macOS 12 or later. [Learn more about My Paint](https://github.com/leoars/my-paint/blob/main/docs/readme/en.md)
 

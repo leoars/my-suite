@@ -19,11 +19,58 @@ Un gestionnaire de fichiers avec arborescence des dossiers, onglets, barre de co
 
 ![Fenêtre de My Explorer en français, avec un dossier de photos en Grandes icônes, l’arborescence des dossiers à gauche et le volet d’aperçu à droite](../screenshots/explorer-fr.png)
 
-- **Navigation :** une arborescence avec les dossiers du Mac, des dossiers favoris et récents, des onglets avec leur propre historique, une barre d’adresse qui devient du texte quand vous cliquez dessus et un filtre du dossier avec caractères génériques (`*.pdf`).
-- **Cinq affichages**, mémorisés pour chaque dossier : Détails, Liste, Petites icônes, Grandes icônes et Galerie, avec des vignettes pour les photos et les vidéos.
-- **Opérations sur les fichiers :** copie et déplacement avec progression et pause, annulation, Corbeille avec Remettre, ZIP, Propriétés avec la taille des dossiers et suppression rapide de milliers de fichiers.
-- **Aperçu :** images, vidéo, audio et PDF dans le volet d’aperçu et dans une visionneuse dédiée.
-- **Et aussi :** texte des images et des PDF (OCR), état d’iCloud Drive, Amazon S3, dossiers protégés par mot de passe, Git et connexion aux serveurs SMB.
+### Navigation
+
+- Arborescence des dossiers avec Dossier personnel, Bureau, Documents, Téléchargements, Ce Mac, Volumes, Stockage cloud, Recherches enregistrées, iPhone et iPad et Corbeille, ainsi que les dossiers favoris et récents.
+- Des onglets, chacun avec son historique, sa sélection, son tri et son filtre.
+- Une seule barre d’adresse : le fil des dossiers est cliquable et se transforme en chemin au format texte quand vous cliquez dessus, avec des suggestions pendant la saisie.
+- **Précédent**, **Suivant**, **Dossier parent** et **Actualiser** ; la liste s’actualise d’elle-même quand les fichiers changent en dehors de l’application.
+- **Filtrer ce dossier** par nom, avec caractères génériques (`*.pdf`), et **Rechercher des fichiers…** par nom, extension, contenu, date et étiquettes, dans ce dossier ou sur tout le Mac. Les recherches peuvent être enregistrées dans l’arborescence.
+
+### Affichages
+
+- Cinq modes, mémorisés pour chaque dossier : **Détails**, **Liste**, **Petites icônes**, **Grandes icônes** et **Galerie**, avec des vignettes pour les photos et les vidéos.
+- **Trier** par nom, date de modification, type ou taille ; en Détails, faites glisser les en-têtes pour modifier l’ordre et la largeur des colonnes.
+- **Éléments masqués** et **Extensions de noms de fichiers** dans le menu Affichage.
+
+### Opérations sur les fichiers
+
+- Barre de commandes avec **Nouveau**, **Couper**, **Copier**, **Coller**, **Renommer**, **Partager** et **Supprimer**.
+- Copie et déplacement avec progression, pause et vérification. Si le nom existe déjà : remplacer, fusionner les dossiers, conserver les deux ou ignorer.
+- **Annuler** pour un maximum de 20 copies, déplacements et suppressions de la session, et renommage sur place avec F2.
+- Corbeille dans l’arborescence, avec **Remettre**, **Supprimer définitivement…** et **Vider la corbeille…**.
+- **Compresser en ZIP** et **Extraire le ZIP**, glisser-déposer entre applications, **Ouvrir avec…**, **Partager…** (y compris par AirDrop), étiquettes du Finder et **Copier le chemin**.
+- **Propriétés** avec le chemin et les autorisations ; pour un volume, capacité totale, utilisée et libre.
+- Actions rapides pour les images et les PDF : faire pivoter, convertir en JPEG ou PNG et créer un PDF.
+
+### Aperçu et multimédia
+
+- Le volet d’aperçu affiche les images, la vidéo et l’audio avec des commandes de lecture, les PDF avec le défilement des pages et les autres types grâce à Coup d’œil (Quick Look).
+- Une visionneuse dédiée ouvre les images, les vidéos et les fichiers audio, passe d’un fichier du dossier à l’autre avec les flèches et zoome de 1 % à 800 %. Les images animées (WebP, GIF, APNG) sont lues.
+
+### Reconnaissance de texte (OCR)
+
+- **Extraire le texte…** des images et des PDF numérisés, avec détection de la langue, pour le copier ou l’enregistrer au format TXT.
+- **Créer un PDF consultable…**, un fichier à la fois ou par lot de 50 au maximum. Tout est traité sur le Mac lui-même.
+
+### iCloud et stockage cloud
+
+- État de chaque élément d’iCloud Drive dans la liste (sur le Mac, en ligne uniquement, en cours de téléchargement ou d’envoi), téléchargement en un clic avec la progression sur l’icône, et **Supprimer le téléchargement de ce Mac**.
+- Téléchargement de tout un dossier ou de la seule sélection, avec une réserve d’espace disque qui n’est jamais entamée.
+- Amazon S3 : connecter un bucket, parcourir, copier entre le Mac et le cloud, déplacer, créer des dossiers et supprimer, avec les identifiants dans Trousseaux d’accès de macOS. Azure Blob Storage et Google Cloud Storage sont expérimentaux.
+
+### Dossiers protégés, Git et réseau
+
+- **Protéger le dossier…** place un dossier dans un coffre chiffré en AES-256, ouvert par mot de passe, qui se verrouille de lui-même au verrouillage de la session, à la mise en veille et à la fermeture de l’application.
+- Git : marques d’état sur les fichiers, la branche dans la barre d’état, **Voir les modifications**, **Voir l’historique**, commit, changement de branche, fetch, pull et push, avec le Git installé sur le Mac.
+- Éjecter des disques, **Se connecter au serveur…** en SMB et importer les photos d’un iPhone ou d’un iPad.
+
+### Options et raccourcis
+
+- Restaurer les onglets ou le dernier dossier à l’ouverture, tailles de police distinctes pour l’arborescence, la liste, les menus et les barres, et thème clair ou sombre, selon le système.
+- Les raccourcis avec Ctrl fonctionnent comme vous les connaissez déjà (Ctrl+C, Ctrl+V, F2, F5, Ctrl+T pour un nouvel onglet) ; leurs équivalents avec ⌘ aussi.
+- Recherche les nouvelles versions à l’ouverture et installe celle que vous acceptez.
+- Expérimental et désactivé par défaut : une ligne de commande et un serveur MCP permettent à un assistant IA de travailler dans les dossiers que vous autorisez, pendant 24 heures.
 
 Nécessite macOS 14 ou ultérieur. [En savoir plus sur My Explorer](https://github.com/leoars/my-explorer/blob/main/README.fr.md)
 
@@ -34,10 +81,13 @@ Un éditeur de texte simple : ouvrez un fichier .txt, écrivez et enregistrez av
 ![Fenêtre de My Notepad en français, avec un carnet de terrain ouvert et la fenêtre Remplacer prête à remplacer « pont » par « passerelle »](../screenshots/notepad-fr.png)
 
 - **Du vrai texte brut :** pas de correcteur orthographique, pas de substitutions automatiques, pas de mise en forme cachée.
-- **Rechercher, Remplacer** et **Atteindre** une ligne d’après son numéro.
-- **Encodages** ANSI, UTF-8 et UTF-16, détectés automatiquement, en conservant les fins de ligne du fichier.
-- **Retour automatique à la ligne**, choix de la police et une barre d’état avec la ligne et la colonne.
-- **Mise en page et Imprimer**, avec en-tête et pied de page, et le journal en .txt avec `.LOG`.
+- **Fichier :** Nouveau, Ouvrir, Enregistrer et Enregistrer sous, avec un avertissement avant de perdre des modifications. À la première ouverture, il propose de devenir l’éditeur par défaut des fichiers .txt.
+- **Rechercher** avec le choix de la direction et le respect de la casse, **Remplacer** et **Tout remplacer** dans une fenêtre qui reste ouverte pendant que vous travaillez, et **Atteindre** une ligne d’après son numéro.
+- **Encodages :** ouvre et enregistre en ANSI (CP-1252), UTF-8, UTF-16 LE et UTF-16 BE, avec détection automatique, et conserve les fins de ligne CRLF, LF ou CR du fichier.
+- **Affichage :** retour automatique à la ligne, choix de la police, taille de la police au clavier ou avec Ctrl et la molette de la souris, et barre d’état avec la ligne et la colonne.
+- **Imprimer :** Mise en page avec en-tête, pied de page (`&f`, `&p`, `&d`, `&t`), marges, papier et orientation.
+- **Heure/Date** avec F5 et le journal en .txt : un fichier qui commence par `.LOG` reçoit l’heure et la date à la fin à chaque ouverture.
+- **Les raccourcis de toujours :** Ctrl+S, Ctrl+F, F3, Ctrl+H, Ctrl+G, Ctrl+Backspace et les autres, ainsi que leurs équivalents avec ⌘.
 
 Nécessite macOS 12 ou ultérieur. [En savoir plus sur My Notepad](https://github.com/leoars/My-Notepad/blob/main/docs/readme/fr.md)
 
@@ -47,11 +97,15 @@ Un éditeur d’images simple : ouvrez une image, dessinez avec des crayons, des
 
 ![Fenêtre de My Paint en français, avec l’onglet Accueil et la zone de dessin vide](../screenshots/paint-fr.png)
 
-- **Outils :** crayon, gomme, remplir avec la couleur, pipette, loupe et texte.
-- **Neuf pinceaux** et les **23 formes** de la galerie, avec contour et remplissage.
-- **Couleurs :** Couleur 1 et Couleur 2, une palette de 20 couleurs et des couleurs personnalisées.
-- **Sélection**, rectangulaire et libre, avec couper, copier et coller entre applications.
-- **Image :** rogner, redimensionner, incliner, faire pivoter et retourner.
+- **Fichier :** ouvre et enregistre les formats PNG, JPEG, BMP, GIF et TIFF, avec Images récentes, Propriétés de l’image et Définir comme fond d’écran.
+- **Outils :** crayon, gomme, remplir avec la couleur, pipette, loupe et texte ; le bouton gauche peint avec Couleur 1 et le bouton droit avec Couleur 2.
+- **Neuf pinceaux**, dont les pinceaux calligraphiques, l’aérographe, le pinceau à huile, le pastel et le pinceau aquarelle, chacun en quatre tailles.
+- **23 formes** de la galerie, avec contour et remplissage en couleur unie ou en texture, ajustables avec les poignées avant de les valider.
+- **Couleurs :** une palette de 20 couleurs, des couleurs personnalisées et Modifier les couleurs par teinte, saturation et luminosité ou par RVB.
+- **Sélection** rectangulaire, libre et transparente ; déplacer, dupliquer, étirer et coller entre applications.
+- **Image :** rogner, redimensionner et incliner, faire pivoter, retourner et inverser les couleurs, sur la sélection ou l’image entière.
+- **Texte** avec police, taille, gras, italique, souligné et barré, et compatibilité avec les méthodes de saisie du japonais et du coréen.
+- **Affichage et impression :** zoom de 12,5 % à 800 %, règles, quadrillage, plein écran, miniature, Aperçu avant impression et annulation sur 50 niveaux.
 
 Nécessite macOS 12 ou ultérieur. [En savoir plus sur My Paint](https://github.com/leoars/my-paint/blob/main/docs/readme/fr.md)
 

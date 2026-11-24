@@ -6,10 +6,10 @@ Four simple, straightforward apps for macOS, with the menus and shortcuts you al
 
 ## Install
 
-- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-The installer brings My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1 and My Calc 1.0. Open it and, under **Customize**, choose which apps to install; all four come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
+The installer brings My Explorer 1.0.4, My Notepad 1.0.7, My Paint 1.0.2 and My Calc 1.0. Open it and, under **Customize**, choose which apps to install; all four come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
 
 Requires macOS 12 or later. My Explorer requires macOS 14 or later: on earlier versions it appears unselected and the other three are installed normally.
 
@@ -114,7 +114,7 @@ Requires macOS 12 or later. [Learn more about My Paint](https://github.com/leoar
 
 A simple calculator: do the math in Standard, Scientific or Programmer mode, with the keys and shortcuts you already know.
 
-![My Calc window in English, in Standard mode](../screenshots/calc-en.png)
+<img src="../screenshots/calc-en.png" alt="My Calc window in English, in Standard mode" width="400">
 
 - **Standard:** the four operations, percent, reciprocal, square and square root, in the order the keys are pressed.
 - **Scientific:** operator precedence and parentheses; trigonometry in degrees, radians or gradians; powers, logarithms and factorial.
@@ -128,7 +128,7 @@ Requires macOS 12 or later. [Learn more about My Calc](https://github.com/leoars
 ## How the apps work together
 
 - In My Explorer, double-clicking a text file opens My Notepad, and the context menu offers **Edit with My Notepad** and **Edit with My Paint**.
-- The **About** window of My Explorer, My Notepad and My Paint leads to the other two; My Calc’s leads to the other three.
+- The **About** window of each of the four leads to the other three.
 - None depends on another: install only the ones you want.
 
 ## Updates

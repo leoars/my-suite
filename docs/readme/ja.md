@@ -6,10 +6,10 @@
 
 ## インストール
 
-- **[Apple シリコン（M シリーズ）用をダウンロード](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Intel 用をダウンロード](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Apple シリコン（M シリーズ）用をダウンロード](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Intel 用をダウンロード](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-インストーラには My Explorer 1.0.3、My Notepad 1.0.6、My Paint 1.0.1、My Calc 1.0 が入っています。インストーラを開き、**カスタマイズ** でインストールするアプリを選んでください。最初は 4 本すべてが選択されています。Developer ID で署名され、Apple の公証を受けており、英語、ポルトガル語、スペイン語、フランス語、ドイツ語、イタリア語、日本語、韓国語に対応しています。
+インストーラには My Explorer 1.0.4、My Notepad 1.0.7、My Paint 1.0.2、My Calc 1.0 が入っています。インストーラを開き、**カスタマイズ** でインストールするアプリを選んでください。最初は 4 本すべてが選択されています。Developer ID で署名され、Apple の公証を受けており、英語、ポルトガル語、スペイン語、フランス語、ドイツ語、イタリア語、日本語、韓国語に対応しています。
 
 macOS 12 以降が必要です。My Explorer には macOS 14 以降が必要で、それより前のバージョンでは選択されていない状態で表示され、ほかの 3 本は通常どおりインストールされます。
 
@@ -114,7 +114,7 @@ macOS 12 以降が必要です。[My Paint の詳細を見る](https://github.co
 
 シンプルな計算機です。標準、関数電卓、プログラマの各モードで、使い慣れたキーとショートカットを使って計算できます。
 
-![日本語の My Calc ウインドウ。標準モードが表示されている](../screenshots/calc-ja.png)
+<img src="../screenshots/calc-ja.png" alt="日本語の My Calc ウインドウ。標準モードが表示されている" width="400">
 
 - **標準：** 四則演算、パーセント、逆数、2 乗、平方根。キーを押した順に計算します。
 - **関数電卓：** 演算子の優先順位とかっこ。度、ラジアン、グラードでの三角関数、累乗、対数、階乗。
@@ -128,7 +128,7 @@ macOS 12 以降が必要です。[My Calc の詳細を見る](https://github.com
 ## アプリどうしの連携
 
 - My Explorer でテキストファイルをダブルクリックすると My Notepad で開き、コンテキストメニューには **My Notepad で編集** と **My Paint で編集** があります。
-- My Explorer、My Notepad、My Paint の **「〜について」** ウインドウからはほかの 2 本へ、My Calc のウインドウからはほかの 3 本へ移動できます。
+- 4 本それぞれの **「〜について」** ウインドウから、ほかの 3 本へ移動できます。
 - どのアプリもほかのアプリに依存しません。必要なものだけをインストールしてください。
 
 ## アップデート

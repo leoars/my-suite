@@ -6,10 +6,10 @@ Quatro aplicativos para macOS simples e diretos, com os menus e os atalhos de se
 
 ## Instalar
 
-- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-O instalador traz o My Explorer 1.0.3, o My Notepad 1.0.6, o My Paint 1.0.1 e o My Calc 1.0. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os quatro vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
+O instalador traz o My Explorer 1.0.4, o My Notepad 1.0.7, o My Paint 1.0.2 e o My Calc 1.0. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os quatro vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
 
 Requer macOS 12 ou posterior. O My Explorer requer macOS 14 ou posterior: em versões anteriores ele aparece desmarcado e os outros três são instalados normalmente.
 
@@ -114,7 +114,7 @@ Requer macOS 12 ou posterior. [Conheça o My Paint](https://github.com/leoars/my
 
 Calculadora simples: faça a conta no modo padrão, científico ou de programador, com as teclas e os atalhos de sempre.
 
-![Janela do My Calc em português, no modo padrão](docs/screenshots/calc-pt-BR.png)
+<img src="docs/screenshots/calc-pt-BR.png" alt="Janela do My Calc em português, no modo padrão" width="400">
 
 - **Padrão:** as quatro operações, porcentagem, inverso, quadrado e raiz, na ordem em que as teclas são pressionadas.
 - **Científica:** precedência e parênteses; trigonometria em graus, radianos ou grados; potências, logaritmos e fatorial.
@@ -128,7 +128,7 @@ Requer macOS 12 ou posterior. [Conheça o My Calc](https://github.com/leoars/my-
 ## Como os aplicativos trabalham juntos
 
 - No My Explorer, o duplo clique em um arquivo de texto abre o My Notepad, e o menu de contexto oferece **Editar com o My Notepad** e **Editar com o My Paint**.
-- A janela **Sobre** do My Explorer, do My Notepad e do My Paint leva aos outros dois; a do My Calc, aos outros três.
+- A janela **Sobre** de cada um dos quatro leva aos outros três.
 - Nenhum depende do outro: instale só os que quiser.
 
 ## Atualizações

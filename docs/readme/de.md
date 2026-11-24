@@ -6,10 +6,10 @@ Vier einfache, geradlinige Apps für macOS, mit den Menüs und Tastenkürzeln, d
 
 ## Installieren
 
-- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-Das Installationsprogramm enthält My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1 und My Calc 1.0. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle vier sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
+Das Installationsprogramm enthält My Explorer 1.0.4, My Notepad 1.0.7, My Paint 1.0.2 und My Calc 1.0. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle vier sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
 
 Erfordert macOS 12 oder neuer. My Explorer erfordert macOS 14 oder neuer: Auf älteren Versionen erscheint es nicht ausgewählt, und die drei anderen werden normal installiert.
 
@@ -114,7 +114,7 @@ Erfordert macOS 12 oder neuer. [Mehr über My Paint](https://github.com/leoars/m
 
 Ein einfacher Rechner: Rechne im Standard-, im wissenschaftlichen oder im Programmierermodus – mit den Tasten und Tastenkürzeln, die du schon kennst.
 
-![My-Calc-Fenster auf Deutsch im Standardmodus](../screenshots/calc-de.png)
+<img src="../screenshots/calc-de.png" alt="My-Calc-Fenster auf Deutsch im Standardmodus" width="400">
 
 - **Standard:** die vier Grundrechenarten, Prozent, Kehrwert, Quadrat und Quadratwurzel, in der Reihenfolge, in der die Tasten gedrückt werden.
 - **Wissenschaftlich:** Operatorrangfolge und Klammern; Trigonometrie in Grad, Bogenmaß oder Neugrad; Potenzen, Logarithmen und Fakultät.
@@ -128,7 +128,7 @@ Erfordert macOS 12 oder neuer. [Mehr über My Calc](https://github.com/leoars/my
 ## So arbeiten die Apps zusammen
 
 - In My Explorer öffnet ein Doppelklick auf eine Textdatei My Notepad, und das Kontextmenü bietet **Mit My Notepad bearbeiten** und **Mit My Paint bearbeiten**.
-- Das Fenster **Über** von My Explorer, My Notepad und My Paint führt zu den beiden anderen, das von My Calc zu den drei anderen.
+- Das Fenster **Über** jeder der vier Apps führt zu den drei anderen.
 - Keine hängt von einer anderen ab: Installiere nur die, die du möchtest.
 
 ## Updates

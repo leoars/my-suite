@@ -6,10 +6,10 @@
 
 ## 설치
 
-- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-설치 프로그램에는 My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1, My Calc 1.0이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 네 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
+설치 프로그램에는 My Explorer 1.0.4, My Notepad 1.0.7, My Paint 1.0.2, My Calc 1.0이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 네 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
 
 macOS 12 이상이 필요합니다. My Explorer는 macOS 14 이상이 필요하며, 이전 버전에서는 선택되지 않은 상태로 표시되고 나머지 세 앱은 정상적으로 설치됩니다.
 
@@ -114,7 +114,7 @@ macOS 12 이상이 필요합니다. [My Paint 자세히 보기](https://github.c
 
 간단한 계산기입니다. 표준, 공학용, 프로그래머 모드에서 손에 익은 키와 단축키로 계산하세요.
 
-![한국어 My Calc 윈도우. 표준 모드가 보임](../screenshots/calc-ko.png)
+<img src="../screenshots/calc-ko.png" alt="한국어 My Calc 윈도우. 표준 모드가 보임" width="400">
 
 - **표준:** 사칙연산, 백분율, 역수, 제곱, 제곱근. 키를 누른 순서대로 계산합니다.
 - **공학용:** 연산자 우선순위와 괄호. 도, 라디안, 그라디안 단위의 삼각함수, 거듭제곱, 로그, 계승.
@@ -128,7 +128,7 @@ macOS 12 이상이 필요합니다. [My Calc 자세히 보기](https://github.co
 ## 앱 간 연동
 
 - My Explorer에서 텍스트 파일을 두 번 클릭하면 My Notepad가 열리고, 컨텍스트 메뉴에 **My Notepad로 편집**과 **My Paint로 편집**이 있습니다.
-- My Explorer, My Notepad, My Paint의 **정보** 윈도우에서는 나머지 두 앱으로, My Calc의 정보 윈도우에서는 나머지 세 앱으로 이동할 수 있습니다.
+- 네 앱 모두 **정보** 윈도우에서 나머지 세 앱으로 이동할 수 있습니다.
 - 어느 앱도 다른 앱에 의존하지 않습니다. 원하는 앱만 설치하세요.
 
 ## 업데이트

@@ -6,10 +6,10 @@ Cuatro aplicaciones para macOS sencillas y directas, con los menús y los atajos
 
 ## Instalar
 
-- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-El instalador incluye My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1 y My Calc 1.0. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las cuatro vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
+El instalador incluye My Explorer 1.0.4, My Notepad 1.0.7, My Paint 1.0.2 y My Calc 1.0. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las cuatro vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
 
 Requiere macOS 12 o posterior. My Explorer requiere macOS 14 o posterior: en versiones anteriores aparece sin seleccionar y las otras tres se instalan con normalidad.
 
@@ -114,7 +114,7 @@ Requiere macOS 12 o posterior. [Más información sobre My Paint](https://github
 
 Una calculadora sencilla: haz la cuenta en el modo estándar, científico o de programador, con las teclas y los atajos que ya conoces.
 
-![Ventana de My Calc en español, en el modo estándar](../screenshots/calc-es.png)
+<img src="../screenshots/calc-es.png" alt="Ventana de My Calc en español, en el modo estándar" width="400">
 
 - **Estándar:** las cuatro operaciones, porcentaje, inverso, cuadrado y raíz, en el orden en que se pulsan las teclas.
 - **Científica:** precedencia y paréntesis; trigonometría en grados, radianes o gradianes; potencias, logaritmos y factorial.
@@ -128,7 +128,7 @@ Requiere macOS 12 o posterior. [Más información sobre My Calc](https://github.
 ## Cómo funcionan juntas
 
 - En My Explorer, el doble clic en un archivo de texto abre My Notepad, y el menú contextual ofrece **Editar con My Notepad** y **Editar con My Paint**.
-- La ventana **Acerca de** de My Explorer, My Notepad y My Paint lleva a las otras dos; la de My Calc, a las otras tres.
+- La ventana **Acerca de** de cada una de las cuatro lleva a las otras tres.
 - Ninguna depende de otra: instala solo las que quieras.
 
 ## Actualizaciones

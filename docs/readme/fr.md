@@ -6,10 +6,10 @@ Quatre applications pour macOS, simples et directes, avec les menus et les racco
 
 ## Installer
 
-- **[Télécharger pour Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
-- **[Télécharger pour Intel](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
+- **[Télécharger pour Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-arm64.pkg)**
+- **[Télécharger pour Intel](https://github.com/leoars/my-suite/releases/download/1.0.7/My-Suite-1.0.7-x86_64.pkg)**
 
-Le programme d’installation contient My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1 et My Calc 1.0. Ouvrez-le et, dans **Personnaliser**, choisissez les applications à installer ; les quatre sont cochées. Il est signé avec Developer ID et notarié par Apple, et il est disponible en anglais, portugais, espagnol, français, allemand, italien, japonais et coréen.
+Le programme d’installation contient My Explorer 1.0.4, My Notepad 1.0.7, My Paint 1.0.2 et My Calc 1.0. Ouvrez-le et, dans **Personnaliser**, choisissez les applications à installer ; les quatre sont cochées. Il est signé avec Developer ID et notarié par Apple, et il est disponible en anglais, portugais, espagnol, français, allemand, italien, japonais et coréen.
 
 Nécessite macOS 12 ou ultérieur. My Explorer nécessite macOS 14 ou ultérieur : sur les versions antérieures, il apparaît décoché et les trois autres s’installent normalement.
 
@@ -114,7 +114,7 @@ Nécessite macOS 12 ou ultérieur. [En savoir plus sur My Paint](https://github.
 
 Une calculatrice simple : faites vos calculs en mode standard, scientifique ou programmeur, avec les touches et les raccourcis que vous connaissez déjà.
 
-![Fenêtre de My Calc en français, en mode standard](../screenshots/calc-fr.png)
+<img src="../screenshots/calc-fr.png" alt="Fenêtre de My Calc en français, en mode standard" width="400">
 
 - **Standard :** les quatre opérations, pourcentage, inverse, carré et racine carrée, dans l’ordre où les touches sont pressées.
 - **Scientifique :** priorité des opérateurs et parenthèses ; trigonométrie en degrés, radians ou grades ; puissances, logarithmes et factorielle.
@@ -128,7 +128,7 @@ Nécessite macOS 12 ou ultérieur. [En savoir plus sur My Calc](https://github.c
 ## Comment les applications fonctionnent ensemble
 
 - Dans My Explorer, un double-clic sur un fichier texte ouvre My Notepad, et le menu contextuel propose **Modifier avec My Notepad** et **Modifier avec My Paint**.
-- La fenêtre **À propos** de My Explorer, My Notepad et My Paint mène aux deux autres ; celle de My Calc, aux trois autres.
+- La fenêtre **À propos** de chacune des quatre mène aux trois autres.
 - Aucune ne dépend d’une autre : installez seulement celles que vous voulez.
 
 ## Mises à jour

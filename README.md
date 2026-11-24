@@ -6,10 +6,10 @@ Três aplicativos para macOS simples e diretos, com os menus e os atalhos de sem
 
 ## Instalar
 
-- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
-- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
+- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
+- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
 
-O instalador traz o My Explorer 1.0.1, o My Notepad 1.0.3 e o My Paint 1.0. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os três vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
+O instalador traz o My Explorer 1.0.2, o My Notepad 1.0.4 e o My Paint 1.0. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os três vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
 
 Requer macOS 12 ou posterior. O My Explorer requer macOS 14 ou posterior: em versões anteriores ele aparece desmarcado e os outros dois são instalados normalmente.
 
@@ -45,7 +45,7 @@ Gerenciador de arquivos com árvore de pastas, abas, barra de comandos e várias
 
 ### Visualização e mídia
 
-- O painel de visualização mostra imagens, vídeo e áudio com controles de reprodução, PDF com passagem de páginas e os demais tipos pelo Quick Look.
+- O painel de visualização mostra imagens, vídeo e áudio com controles de reprodução, PDF com passagem de páginas, Markdown formatado (com tabelas, listas de tarefas e realce de código, ou o código-fonte) e os demais tipos pelo Quick Look.
 - Um visualizador próprio abre imagens, vídeos e áudios, avança pelos arquivos da pasta com as setas e dá zoom de 1% a 800%. Imagens animadas (WebP, GIF, APNG) são reproduzidas.
 
 ### Reconhecimento de texto (OCR)
@@ -82,6 +82,7 @@ Editor de texto simples: abra um .txt, escreva e salve com os atalhos que você 
 
 - **Texto simples de verdade:** sem corretor ortográfico, sem substituições automáticas e sem formatação escondida.
 - **Arquivo:** Novo, Abrir, Salvar e Salvar como, com aviso antes de perder alterações. Na primeira abertura, oferece ser o editor padrão de arquivos .txt.
+- **Janelas e sessão:** cada documento na sua janela, com **Nova janela**. O que não foi salvo fica guardado e volta na próxima abertura, sem perguntar ao fechar; em **Ajustes…** dá para voltar a ser perguntado.
 - **Localizar** com direção e diferenciação de maiúsculas, **Substituir** e **Substituir tudo** num painel que fica aberto enquanto você trabalha, e **Ir para** uma linha pelo número.
 - **Codificações:** abre e salva em ANSI (CP-1252), UTF-8, UTF-16 LE e UTF-16 BE, com detecção automática, e mantém os fins de linha CRLF, LF ou CR do arquivo.
 - **Exibir:** quebra automática de linha, escolha de fonte, tamanho da fonte pelo teclado ou com Ctrl e a roda do mouse, e barra de status com linha e coluna.

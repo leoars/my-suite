@@ -6,10 +6,10 @@ Drei einfache, geradlinige Apps für macOS, mit den Menüs und Tastenkürzeln, d
 
 ## Installieren
 
-- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
-- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
+- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
+- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
 
-Das Installationsprogramm enthält My Explorer 1.0.1, My Notepad 1.0.3 und My Paint 1.0. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle drei sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
+Das Installationsprogramm enthält My Explorer 1.0.2, My Notepad 1.0.4 und My Paint 1.0. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle drei sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
 
 Erfordert macOS 12 oder neuer. My Explorer erfordert macOS 14 oder neuer: Auf älteren Versionen erscheint es nicht ausgewählt, und die beiden anderen werden normal installiert.
 
@@ -45,7 +45,7 @@ Ein Dateimanager mit Ordnerbaum, Tabs, Befehlsleiste und mehreren Ansichten, ver
 
 ### Vorschau und Medien
 
-- Der Vorschaubereich zeigt Bilder, Video und Audio mit Wiedergabesteuerung, PDFs zum Blättern und alle übrigen Typen über die Übersicht (Quick Look).
+- Der Vorschaubereich zeigt Bilder, Video und Audio mit Wiedergabesteuerung, PDFs zum Blättern, formatiertes Markdown (mit Tabellen, Aufgabenlisten und Codehervorhebung oder als Quelltext) und alle übrigen Typen über die Übersicht (Quick Look).
 - Ein eigener Betrachter öffnet Bilder, Videos und Audiodateien, wechselt mit den Pfeiltasten durch die Dateien des Ordners und zoomt von 1 % bis 800 %. Animierte Bilder (WebP, GIF, APNG) werden abgespielt.
 
 ### Texterkennung (OCR)
@@ -82,6 +82,7 @@ Ein einfacher Texteditor: Öffne eine .txt-Datei, schreibe und speichere mit den
 
 - **Wirklich reiner Text:** keine Rechtschreibprüfung, keine automatischen Ersetzungen und keine versteckte Formatierung.
 - **Datei:** Neu, Öffnen, Speichern und Speichern unter, mit einer Rückfrage, bevor Änderungen verloren gehen. Beim ersten Öffnen bietet die App an, Standardeditor für .txt-Dateien zu werden.
+- **Fenster und Sitzung:** jedes Dokument in einem eigenen Fenster, mit **Neues Fenster**. Nicht Gespeichertes bleibt erhalten und ist beim nächsten Öffnen wieder da, ohne Rückfrage beim Schließen; unter **Einstellungen…** lässt sich die Rückfrage wieder einschalten.
 - **Suchen** mit Suchrichtung und Beachtung der Groß-/Kleinschreibung, **Ersetzen** und **Alle ersetzen** in einem Fenster, das offen bleibt, während du arbeitest, und **Gehe zu** einer Zeile über ihre Nummer.
 - **Codierungen:** öffnet und speichert ANSI (CP-1252), UTF-8, UTF-16 LE und UTF-16 BE, mit automatischer Erkennung, und behält die Zeilenenden CRLF, LF oder CR der Datei bei.
 - **Ansicht:** Zeilenumbruch, Wahl der Schriftart, Schriftgröße über die Tastatur oder mit Strg und dem Mausrad sowie eine Statusleiste mit Zeile und Spalte.

@@ -6,10 +6,10 @@ Trois applications pour macOS, simples et directes, avec les menus et les raccou
 
 ## Installer
 
-- **[Télécharger pour Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
-- **[Télécharger pour Intel](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
+- **[Télécharger pour Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
+- **[Télécharger pour Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
 
-Le programme d’installation contient My Explorer 1.0.1, My Notepad 1.0.3 et My Paint 1.0. Ouvrez-le et, dans **Personnaliser**, choisissez les applications à installer ; les trois sont cochées. Il est signé avec Developer ID et notarié par Apple, et il est disponible en anglais, portugais, espagnol, français, allemand, italien, japonais et coréen.
+Le programme d’installation contient My Explorer 1.0.2, My Notepad 1.0.4 et My Paint 1.0. Ouvrez-le et, dans **Personnaliser**, choisissez les applications à installer ; les trois sont cochées. Il est signé avec Developer ID et notarié par Apple, et il est disponible en anglais, portugais, espagnol, français, allemand, italien, japonais et coréen.
 
 Nécessite macOS 12 ou ultérieur. My Explorer nécessite macOS 14 ou ultérieur : sur les versions antérieures, il apparaît décoché et les deux autres s’installent normalement.
 
@@ -45,7 +45,7 @@ Un gestionnaire de fichiers avec arborescence des dossiers, onglets, barre de co
 
 ### Aperçu et multimédia
 
-- Le volet d’aperçu affiche les images, la vidéo et l’audio avec des commandes de lecture, les PDF avec le défilement des pages et les autres types grâce à Coup d’œil (Quick Look).
+- Le volet d’aperçu affiche les images, la vidéo et l’audio avec des commandes de lecture, les PDF avec le défilement des pages, le Markdown mis en forme (avec tableaux, listes de tâches et coloration du code, ou la source) et les autres types grâce à Coup d’œil (Quick Look).
 - Une visionneuse dédiée ouvre les images, les vidéos et les fichiers audio, passe d’un fichier du dossier à l’autre avec les flèches et zoome de 1 % à 800 %. Les images animées (WebP, GIF, APNG) sont lues.
 
 ### Reconnaissance de texte (OCR)
@@ -82,6 +82,7 @@ Un éditeur de texte simple : ouvrez un fichier .txt, écrivez et enregistrez av
 
 - **Du vrai texte brut :** pas de correcteur orthographique, pas de substitutions automatiques, pas de mise en forme cachée.
 - **Fichier :** Nouveau, Ouvrir, Enregistrer et Enregistrer sous, avec un avertissement avant de perdre des modifications. À la première ouverture, il propose de devenir l’éditeur par défaut des fichiers .txt.
+- **Fenêtres et session :** chaque document dans sa fenêtre, avec **Nouvelle fenêtre**. Ce qui n’a pas été enregistré est conservé et revient à la prochaine ouverture, sans question à la fermeture ; **Réglages…** permet de la rétablir.
 - **Rechercher** avec le choix de la direction et le respect de la casse, **Remplacer** et **Tout remplacer** dans une fenêtre qui reste ouverte pendant que vous travaillez, et **Atteindre** une ligne d’après son numéro.
 - **Encodages :** ouvre et enregistre en ANSI (CP-1252), UTF-8, UTF-16 LE et UTF-16 BE, avec détection automatique, et conserve les fins de ligne CRLF, LF ou CR du fichier.
 - **Affichage :** retour automatique à la ligne, choix de la police, taille de la police au clavier ou avec Ctrl et la molette de la souris, et barre d’état avec la ligne et la colonne.

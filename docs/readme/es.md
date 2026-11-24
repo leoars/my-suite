@@ -6,10 +6,10 @@ Tres aplicaciones para macOS sencillas y directas, con los menús y los atajos d
 
 ## Instalar
 
-- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
-- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
+- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
+- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
 
-El instalador incluye My Explorer 1.0.1, My Notepad 1.0.3 y My Paint 1.0. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las tres vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
+El instalador incluye My Explorer 1.0.2, My Notepad 1.0.4 y My Paint 1.0. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las tres vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
 
 Requiere macOS 12 o posterior. My Explorer requiere macOS 14 o posterior: en versiones anteriores aparece sin seleccionar y las otras dos se instalan con normalidad.
 
@@ -45,7 +45,7 @@ Un gestor de archivos con árbol de carpetas, pestañas, barra de comandos y var
 
 ### Vista previa y multimedia
 
-- El panel de vista previa muestra imágenes, vídeo y audio con controles de reproducción, PDF con paso de páginas y los demás tipos mediante Vista Rápida (Quick Look).
+- El panel de vista previa muestra imágenes, vídeo y audio con controles de reproducción, PDF con paso de páginas, Markdown con formato (con tablas, listas de tareas y resaltado de código, o el código fuente) y los demás tipos mediante Vista Rápida (Quick Look).
 - Un visor propio abre imágenes, vídeos y audio, avanza por los archivos de la carpeta con las flechas y permite un zoom del 1 % al 800 %. Las imágenes animadas (WebP, GIF, APNG) se reproducen.
 
 ### Reconocimiento de texto (OCR)
@@ -82,6 +82,7 @@ Un editor de texto sencillo: abre un archivo .txt, escribe y guarda con los ataj
 
 - **Texto plano de verdad:** sin corrector ortográfico, sin sustituciones automáticas y sin formato oculto.
 - **Archivo:** Nuevo, Abrir, Guardar y Guardar como, con un aviso antes de perder los cambios. La primera vez que lo abres, se ofrece como editor predeterminado de los archivos .txt.
+- **Ventanas y sesión:** cada documento en su ventana, con **Nueva ventana**. Lo que no se guardó se conserva y vuelve la próxima vez que abras la aplicación, sin preguntar al cerrar; en **Ajustes…** puedes volver a la pregunta.
 - **Buscar** con dirección y distinción entre mayúsculas y minúsculas, **Reemplazar** y **Reemplazar todo** en un panel que sigue abierto mientras trabajas, e **Ir a** una línea por su número.
 - **Codificaciones:** abre y guarda en ANSI (CP-1252), UTF-8, UTF-16 LE y UTF-16 BE, con detección automática, y conserva los finales de línea CRLF, LF o CR del archivo.
 - **Vista:** ajuste de línea, elección de la fuente, tamaño de la fuente desde el teclado o con Ctrl y la rueda del ratón, y una barra de estado con la línea y la columna.

@@ -6,10 +6,10 @@ Tre app per macOS semplici e dirette, con i menu e le scorciatoie che conosci gi
 
 ## Installare
 
-- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-arm64.pkg)**
-- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.2/My-Suite-1.0.2-x86_64.pkg)**
+- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
+- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
 
-Il programma di installazione include My Explorer 1.0.1, My Notepad 1.0.3 e My Paint 1.0. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
+Il programma di installazione include My Explorer 1.0.2, My Notepad 1.0.4 e My Paint 1.0. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
 
 Richiede macOS 12 o successivo. My Explorer richiede macOS 14 o successivo: nelle versioni precedenti compare non selezionato e le altre due vengono installate normalmente.
 
@@ -45,7 +45,7 @@ Un gestore di file con albero delle cartelle, schede, barra dei comandi e divers
 
 ### Anteprima e contenuti multimediali
 
-- Il riquadro di anteprima mostra immagini, video e audio con i controlli di riproduzione, i PDF con lo scorrimento delle pagine e gli altri tipi tramite Visualizzazione rapida (Quick Look).
+- Il riquadro di anteprima mostra immagini, video e audio con i controlli di riproduzione, i PDF con lo scorrimento delle pagine, il Markdown formattato (con tabelle, elenchi di attività ed evidenziazione del codice, o il sorgente) e gli altri tipi tramite Visualizzazione rapida (Quick Look).
 - Un visualizzatore dedicato apre immagini, video e audio, scorre i file della cartella con le frecce e ingrandisce dall’1% all’800%. Le immagini animate (WebP, GIF, APNG) vengono riprodotte.
 
 ### Riconoscimento del testo (OCR)
@@ -82,6 +82,7 @@ Un editor di testo semplice: apri un file .txt, scrivi e salva con le scorciatoi
 
 - **Testo semplice per davvero:** niente correttore ortografico, niente sostituzioni automatiche e niente formattazione nascosta.
 - **File:** Nuovo, Apri, Salva e Salva con nome, con un avviso prima di perdere le modifiche. Alla prima apertura propone di diventare l’editor predefinito dei file .txt.
+- **Finestre e sessione:** ogni documento nella sua finestra, con **Nuova finestra**. Ciò che non è stato salvato viene conservato e torna alla prossima apertura, senza domande alla chiusura; in **Impostazioni…** puoi riattivare la domanda.
 - **Trova** con la direzione e l’opzione per distinguere maiuscole e minuscole, **Sostituisci** e **Sostituisci tutto** in una finestra che resta aperta mentre lavori, e **Vai a** una riga indicandone il numero.
 - **Codifiche:** apre e salva in ANSI (CP-1252), UTF-8, UTF-16 LE e UTF-16 BE, con rilevamento automatico, e mantiene le terminazioni di riga CRLF, LF o CR del file.
 - **Visualizza:** a capo automatico, scelta del carattere, dimensione del carattere dalla tastiera o con Ctrl e la rotellina del mouse, e barra di stato con riga e colonna.

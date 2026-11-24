@@ -6,10 +6,10 @@ Três aplicativos para macOS simples e diretos, com os menus e os atalhos de sem
 
 ## Instalar
 
-- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
-- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
+- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
+- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
 
-O instalador traz o My Explorer 1.0.3, o My Notepad 1.0.5 e o My Paint 1.0.1. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os três vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
+O instalador traz o My Explorer 1.0.3, o My Notepad 1.0.6 e o My Paint 1.0.1. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os três vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
 
 Requer macOS 12 ou posterior. O My Explorer requer macOS 14 ou posterior: em versões anteriores ele aparece desmarcado e os outros dois são instalados normalmente.
 
@@ -81,7 +81,7 @@ Editor de texto simples: abra um .txt, escreva e salve com os atalhos que você 
 ![Janela do My Notepad em português, com um caderno de campo aberto e o painel Substituir pronto para trocar “ponte” por “passarela”](docs/screenshots/notepad-pt-BR.png)
 
 - **Texto simples de verdade:** sem corretor ortográfico, sem substituições automáticas e sem formatação escondida.
-- **Arquivo:** Novo, Abrir, Salvar e Salvar como, com aviso antes de perder alterações. Na primeira abertura, oferece ser o editor padrão de arquivos .txt.
+- **Arquivo:** Novo, Abrir, Abrir recentes (os últimos dez arquivos), Salvar e Salvar como, com aviso antes de perder alterações. Na primeira abertura, oferece ser o editor padrão de arquivos .txt.
 - **Janelas e sessão:** cada documento na sua janela, com **Nova janela**. O que não foi salvo fica guardado e volta na próxima abertura, sem perguntar ao fechar; em **Ajustes…** dá para voltar a ser perguntado.
 - **Localizar** com direção e diferenciação de maiúsculas, **Substituir** e **Substituir tudo** num painel que fica aberto enquanto você trabalha, e **Ir para** uma linha pelo número.
 - **Codificações:** abre e salva em ANSI (CP-1252), UTF-8, UTF-16 LE e UTF-16 BE, com detecção automática, e mantém os fins de linha CRLF, LF ou CR do arquivo.

@@ -6,10 +6,10 @@ Three simple, straightforward apps for macOS, with the menus and shortcuts you a
 
 ## Install
 
-- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
-- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
+- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
+- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
 
-The installer brings My Explorer 1.0.3, My Notepad 1.0.5 and My Paint 1.0.1. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
+The installer brings My Explorer 1.0.3, My Notepad 1.0.6 and My Paint 1.0.1. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
 
 Requires macOS 12 or later. My Explorer requires macOS 14 or later: on earlier versions it appears unselected and the other two are installed normally.
 
@@ -81,7 +81,7 @@ A simple text editor: open a .txt file, write and save with the shortcuts you al
 ![My Notepad window in English, with a field notebook open and the Replace panel ready to change “bridge” into “footbridge”](../screenshots/notepad-en.png)
 
 - **Truly plain text:** no spell checker, no automatic substitutions and no hidden formatting.
-- **File:** **New**, **Open…**, **Save** and **Save As…**, with a prompt before you lose changes. The first time you open it, it offers to become the default editor for .txt files.
+- **File:** **New**, **Open…**, **Open Recent** (the last ten files), **Save** and **Save As…**, with a prompt before you lose changes. The first time you open it, it offers to become the default editor for .txt files.
 - **Windows and session:** each document in its own window, with **New Window**. What was not saved is kept and comes back the next time you open the app, without asking on close; **Settings…** brings the question back.
 - **Find…** with a direction and a match case option, **Replace** and **Replace All** in a panel that stays open while you work, and **Go To…** a line by its number.
 - **Encodings:** opens and saves ANSI (CP-1252), UTF-8, UTF-16 LE and UTF-16 BE, with automatic detection, and keeps the file's CRLF, LF or CR line endings.

@@ -6,10 +6,10 @@
 
 ## 설치
 
-- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
-- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
+- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
+- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
 
-설치 프로그램에는 My Explorer 1.0.3, My Notepad 1.0.5, My Paint 1.0.1이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
+설치 프로그램에는 My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
 
 macOS 12 이상이 필요합니다. My Explorer는 macOS 14 이상이 필요하며, 이전 버전에서는 선택되지 않은 상태로 표시되고 나머지 두 앱은 정상적으로 설치됩니다.
 
@@ -81,7 +81,7 @@ macOS 14 이상이 필요합니다. [My Explorer 자세히 보기](https://githu
 ![한국어 My Notepad 창. ‘노트.txt’의 현장 노트 위에 바꾸기 창이 열려 있고, ‘다리’를 ‘보행교’로 바꿀 준비가 되어 있음](../screenshots/notepad-ko.png)
 
 - **진짜 일반 텍스트:** 맞춤법 검사도, 자동 대치도, 숨은 서식도 없습니다.
-- **파일:** 새로 만들기, 열기, 저장, 다른 이름으로 저장. 변경 내용을 잃기 전에 저장할지 묻고, 처음 실행할 때 .txt 파일의 기본 편집기로 사용할지 묻습니다.
+- **파일:** 새로 만들기, 열기, 최근 항목 열기(마지막 파일 10개), 저장, 다른 이름으로 저장. 변경 내용을 잃기 전에 저장할지 묻고, 처음 실행할 때 .txt 파일의 기본 편집기로 사용할지 묻습니다.
 - **창과 세션:** 문서마다 자체 창이 있고 **새 윈도우** 도 있습니다. 저장하지 않은 내용은 보관되어 닫을 때 묻지 않고 다음에 앱을 열 때 돌아옵니다. **설정…** 에서 다시 묻도록 바꿀 수 있습니다.
 - 방향과 대/소문자 구분을 지정하는 **찾기**, 작업하는 동안 계속 열려 있는 창의 **바꾸기**와 **모두 바꾸기**, 줄 번호로 **이동**.
 - **인코딩:** ANSI(CP-1252), UTF-8, UTF-16 LE, UTF-16 BE로 열고 저장하며 자동 감지를 지원합니다. 파일의 CRLF, LF, CR 줄바꿈 형식을 그대로 유지합니다.

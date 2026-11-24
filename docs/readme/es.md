@@ -6,10 +6,10 @@ Tres aplicaciones para macOS sencillas y directas, con los menús y los atajos d
 
 ## Instalar
 
-- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
-- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
+- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
+- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
 
-El instalador incluye My Explorer 1.0.3, My Notepad 1.0.5 y My Paint 1.0.1. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las tres vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
+El instalador incluye My Explorer 1.0.3, My Notepad 1.0.6 y My Paint 1.0.1. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las tres vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
 
 Requiere macOS 12 o posterior. My Explorer requiere macOS 14 o posterior: en versiones anteriores aparece sin seleccionar y las otras dos se instalan con normalidad.
 
@@ -81,7 +81,7 @@ Un editor de texto sencillo: abre un archivo .txt, escribe y guarda con los ataj
 ![Ventana de My Notepad en español, con un cuaderno de campo abierto y el panel Reemplazar listo para cambiar «puente» por «pasarela»](../screenshots/notepad-es.png)
 
 - **Texto plano de verdad:** sin corrector ortográfico, sin sustituciones automáticas y sin formato oculto.
-- **Archivo:** Nuevo, Abrir, Guardar y Guardar como, con un aviso antes de perder los cambios. La primera vez que lo abres, se ofrece como editor predeterminado de los archivos .txt.
+- **Archivo:** Nuevo, Abrir, Abrir recientes (los últimos diez archivos), Guardar y Guardar como, con un aviso antes de perder los cambios. La primera vez que lo abres, se ofrece como editor predeterminado de los archivos .txt.
 - **Ventanas y sesión:** cada documento en su ventana, con **Nueva ventana**. Lo que no se guardó se conserva y vuelve la próxima vez que abras la aplicación, sin preguntar al cerrar; en **Ajustes…** puedes volver a la pregunta.
 - **Buscar** con dirección y distinción entre mayúsculas y minúsculas, **Reemplazar** y **Reemplazar todo** en un panel que sigue abierto mientras trabajas, e **Ir a** una línea por su número.
 - **Codificaciones:** abre y guarda en ANSI (CP-1252), UTF-8, UTF-16 LE y UTF-16 BE, con detección automática, y conserva los finales de línea CRLF, LF o CR del archivo.

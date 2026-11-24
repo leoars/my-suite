@@ -6,10 +6,10 @@ Tre app per macOS semplici e dirette, con i menu e le scorciatoie che conosci gi
 
 ## Installare
 
-- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
-- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
+- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
+- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
 
-Il programma di installazione include My Explorer 1.0.3, My Notepad 1.0.5 e My Paint 1.0.1. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
+Il programma di installazione include My Explorer 1.0.3, My Notepad 1.0.6 e My Paint 1.0.1. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
 
 Richiede macOS 12 o successivo. My Explorer richiede macOS 14 o successivo: nelle versioni precedenti compare non selezionato e le altre due vengono installate normalmente.
 
@@ -81,7 +81,7 @@ Un editor di testo semplice: apri un file .txt, scrivi e salva con le scorciatoi
 ![Finestra di My Notepad in italiano, con il file taccuino.txt aperto e, sopra il testo, la finestra Sostituisci pronta a cambiare «ponte» in «passerella»](../screenshots/notepad-it.png)
 
 - **Testo semplice per davvero:** niente correttore ortografico, niente sostituzioni automatiche e niente formattazione nascosta.
-- **File:** Nuovo, Apri, Salva e Salva con nome, con un avviso prima di perdere le modifiche. Alla prima apertura propone di diventare l’editor predefinito dei file .txt.
+- **File:** Nuovo, Apri, Apri recenti (gli ultimi dieci file), Salva e Salva con nome, con un avviso prima di perdere le modifiche. Alla prima apertura propone di diventare l’editor predefinito dei file .txt.
 - **Finestre e sessione:** ogni documento nella sua finestra, con **Nuova finestra**. Ciò che non è stato salvato viene conservato e torna alla prossima apertura, senza domande alla chiusura; in **Impostazioni…** puoi riattivare la domanda.
 - **Trova** con la direzione e l’opzione per distinguere maiuscole e minuscole, **Sostituisci** e **Sostituisci tutto** in una finestra che resta aperta mentre lavori, e **Vai a** una riga indicandone il numero.
 - **Codifiche:** apre e salva in ANSI (CP-1252), UTF-8, UTF-16 LE e UTF-16 BE, con rilevamento automatico, e mantiene le terminazioni di riga CRLF, LF o CR del file.

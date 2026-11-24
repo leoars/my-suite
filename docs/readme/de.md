@@ -6,10 +6,10 @@ Drei einfache, geradlinige Apps für macOS, mit den Menüs und Tastenkürzeln, d
 
 ## Installieren
 
-- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
-- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
+- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
+- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
 
-Das Installationsprogramm enthält My Explorer 1.0.3, My Notepad 1.0.5 und My Paint 1.0.1. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle drei sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
+Das Installationsprogramm enthält My Explorer 1.0.3, My Notepad 1.0.6 und My Paint 1.0.1. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle drei sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
 
 Erfordert macOS 12 oder neuer. My Explorer erfordert macOS 14 oder neuer: Auf älteren Versionen erscheint es nicht ausgewählt, und die beiden anderen werden normal installiert.
 
@@ -81,7 +81,7 @@ Ein einfacher Texteditor: Öffne eine .txt-Datei, schreibe und speichere mit den
 ![My-Notepad-Fenster auf Deutsch mit geöffneten Feldnotizen und dem Fenster „Ersetzen“, bereit, „Brücke“ durch „Fußgängerbrücke“ zu ersetzen](../screenshots/notepad-de.png)
 
 - **Wirklich reiner Text:** keine Rechtschreibprüfung, keine automatischen Ersetzungen und keine versteckte Formatierung.
-- **Datei:** Neu, Öffnen, Speichern und Speichern unter, mit einer Rückfrage, bevor Änderungen verloren gehen. Beim ersten Öffnen bietet die App an, Standardeditor für .txt-Dateien zu werden.
+- **Datei:** Neu, Öffnen, Benutzte Dokumente öffnen (die letzten zehn Dateien), Speichern und Speichern unter, mit einer Rückfrage, bevor Änderungen verloren gehen. Beim ersten Öffnen bietet die App an, Standardeditor für .txt-Dateien zu werden.
 - **Fenster und Sitzung:** jedes Dokument in einem eigenen Fenster, mit **Neues Fenster**. Nicht Gespeichertes bleibt erhalten und ist beim nächsten Öffnen wieder da, ohne Rückfrage beim Schließen; unter **Einstellungen…** lässt sich die Rückfrage wieder einschalten.
 - **Suchen** mit Suchrichtung und Beachtung der Groß-/Kleinschreibung, **Ersetzen** und **Alle ersetzen** in einem Fenster, das offen bleibt, während du arbeitest, und **Gehe zu** einer Zeile über ihre Nummer.
 - **Codierungen:** öffnet und speichert ANSI (CP-1252), UTF-8, UTF-16 LE und UTF-16 BE, mit automatischer Erkennung, und behält die Zeilenenden CRLF, LF oder CR der Datei bei.

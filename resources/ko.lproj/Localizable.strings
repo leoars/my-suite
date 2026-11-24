@@ -1,3 +1,4 @@
 "explorer.description" = "파일 관리자. macOS {MIN} 이상이 필요합니다.";
 "notepad.description" = "일반 텍스트 편집기.";
 "paint.description" = "이미지 편집기.";
+"calc.description" = "표준, 공학용, 프로그래머용 모드를 갖춘 계산기.";

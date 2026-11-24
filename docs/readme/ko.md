@@ -2,16 +2,16 @@
 
 [Português (Brasil)](../../README.md) · [English](en.md) · [Español](es.md) · [Français](fr.md) · [Deutsch](de.md) · [Italiano](it.md) · [日本語](ja.md) · **한국어**
 
-익숙한 메뉴와 단축키를 갖춘, 단순하고 간결한 macOS용 앱 세 가지입니다. 파일 관리자, 텍스트 편집기, 이미지 편집기로 이루어져 있습니다. 앱마다 저장소, 버전, 다운로드가 따로 있으며, 이 저장소는 세 앱을 하나의 설치 프로그램으로 묶습니다.
+익숙한 메뉴와 단축키를 갖춘, 단순하고 간결한 macOS용 앱 네 가지입니다. 파일 관리자, 텍스트 편집기, 이미지 편집기, 계산기로 이루어져 있습니다. 앱마다 저장소, 버전, 다운로드가 따로 있으며, 이 저장소는 네 앱을 하나의 설치 프로그램으로 묶습니다.
 
 ## 설치
 
-- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
-- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
+- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
+- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
 
-설치 프로그램에는 My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
+설치 프로그램에는 My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1, My Calc 1.0이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 네 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
 
-macOS 12 이상이 필요합니다. My Explorer는 macOS 14 이상이 필요하며, 이전 버전에서는 선택되지 않은 상태로 표시되고 나머지 두 앱은 정상적으로 설치됩니다.
+macOS 12 이상이 필요합니다. My Explorer는 macOS 14 이상이 필요하며, 이전 버전에서는 선택되지 않은 상태로 표시되고 나머지 세 앱은 정상적으로 설치됩니다.
 
 ## My Explorer
 
@@ -110,15 +110,30 @@ macOS 12 이상이 필요합니다. [My Notepad 자세히 보기](https://github
 
 macOS 12 이상이 필요합니다. [My Paint 자세히 보기](https://github.com/leoars/my-paint/blob/main/docs/readme/ko.md)
 
+## My Calc
+
+간단한 계산기입니다. 표준, 공학용, 프로그래머 모드에서 손에 익은 키와 단축키로 계산하세요.
+
+![한국어 My Calc 윈도우. 표준 모드가 보임](../screenshots/calc-ko.png)
+
+- **표준:** 사칙연산, 백분율, 역수, 제곱, 제곱근. 키를 누른 순서대로 계산합니다.
+- **공학용:** 연산자 우선순위와 괄호. 도, 라디안, 그라디안 단위의 삼각함수, 거듭제곱, 로그, 계승.
+- **프로그래머:** 숫자를 HEX, DEC, OCT, BIN으로 동시에 표시. 8~64비트 워드, 비트 연산, 64비트 패널.
+- **메모리와 기록:** MS, MR, M+, M−, MC와 저장한 숫자 목록, 계산 기록. 숫자나 식 전체를 복사하고 붙여넣기.
+- 유효 숫자 32자리의 **10진 연산**: 0.1 + 0.2는 0.3입니다.
+- 시스템에 맞춘 밝은 모드 또는 어두운 모드, 크기를 바꿀 수 있는 윈도우, **항상 위에 유지**.
+
+macOS 12 이상이 필요합니다. [My Calc 자세히 보기](https://github.com/leoars/my-calc/blob/main/docs/readme/ko.md)
+
 ## 앱 간 연동
 
 - My Explorer에서 텍스트 파일을 두 번 클릭하면 My Notepad가 열리고, 컨텍스트 메뉴에 **My Notepad로 편집**과 **My Paint로 편집**이 있습니다.
-- 각 앱의 **정보** 윈도우에서 나머지 두 앱으로 이동할 수 있습니다.
+- My Explorer, My Notepad, My Paint의 **정보** 윈도우에서는 나머지 두 앱으로, My Calc의 정보 윈도우에서는 나머지 세 앱으로 이동할 수 있습니다.
 - 어느 앱도 다른 앱에 의존하지 않습니다. 원하는 앱만 설치하세요.
 
 ## 업데이트
 
-세 앱 모두 앱을 열 때 새 버전을 확인하고, 사용자가 수락한 버전을 설치합니다. 각 앱의 옵션 또는 설정에 **시작할 때 업데이트 확인** 과 **지금 확인** 이 있습니다. My Notepad와 My Paint는 버전 1.0.5와 1.0.1부터 지원합니다. 수락하면 새 설치 프로그램을 확인한 뒤 macOS 설치 프로그램에서 엽니다. 그 이전 버전을 사용 중이라면 이 설치 프로그램이나 각 앱의 설치 프로그램으로 한 번만 업데이트하세요.
+네 앱 모두 앱을 열 때 새 버전을 확인하고, 사용자가 수락한 버전을 설치합니다. 각 앱의 옵션 또는 설정에 **시작할 때 업데이트 확인** 과 **지금 확인** 이 있습니다. My Notepad와 My Paint는 버전 1.0.5와 1.0.1부터 지원합니다. 수락하면 새 설치 프로그램을 확인한 뒤 macOS 설치 프로그램에서 엽니다. 그 이전 버전을 사용 중이라면 이 설치 프로그램이나 각 앱의 설치 프로그램으로 한 번만 업데이트하세요.
 
 ## 설치 프로그램 빌드
 

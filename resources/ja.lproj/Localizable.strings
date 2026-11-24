@@ -1,3 +1,4 @@
 "explorer.description" = "ファイルマネージャ。macOS {MIN} 以降が必要です。";
 "notepad.description" = "プレーンテキストエディタ。";
 "paint.description" = "画像エディタ。";
+"calc.description" = "標準、関数電卓、プログラマの各モードを備えた電卓。";

@@ -2,16 +2,16 @@
 
 [Português (Brasil)](../../README.md) · [English](en.md) · [Español](es.md) · [Français](fr.md) · [Deutsch](de.md) · **Italiano** · [日本語](ja.md) · [한국어](ko.md)
 
-Tre app per macOS semplici e dirette, con i menu e le scorciatoie che conosci già: un gestore di file, un editor di testo e un editor di immagini. Ognuna ha il proprio repository, la propria versione e il proprio download; questo repository le riunisce in un unico programma di installazione.
+Quattro app per macOS semplici e dirette, con i menu e le scorciatoie che conosci già: un gestore di file, un editor di testo, un editor di immagini e una calcolatrice. Ognuna ha il proprio repository, la propria versione e il proprio download; questo repository le riunisce in un unico programma di installazione.
 
 ## Installare
 
-- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
-- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
+- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
+- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
 
-Il programma di installazione include My Explorer 1.0.3, My Notepad 1.0.6 e My Paint 1.0.1. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
+Il programma di installazione include My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1 e My Calc 1.0. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e quattro. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
 
-Richiede macOS 12 o successivo. My Explorer richiede macOS 14 o successivo: nelle versioni precedenti compare non selezionato e le altre due vengono installate normalmente.
+Richiede macOS 12 o successivo. My Explorer richiede macOS 14 o successivo: nelle versioni precedenti compare non selezionato e le altre tre vengono installate normalmente.
 
 ## My Explorer
 
@@ -110,15 +110,30 @@ Un editor di immagini semplice: apri un’immagine, disegna con matite, pennelli
 
 Richiede macOS 12 o successivo. [Scopri di più su My Paint](https://github.com/leoars/my-paint/blob/main/docs/readme/it.md)
 
+## My Calc
+
+Una semplice calcolatrice: fai i conti in modalità standard, scientifica o programmatore, con i tasti e le scorciatoie che conosci già.
+
+![Finestra di My Calc in italiano, in modalità standard](../screenshots/calc-it.png)
+
+- **Standard:** le quattro operazioni, percentuale, reciproco, quadrato e radice quadrata, nell’ordine in cui si premono i tasti.
+- **Scientifica:** precedenza degli operatori e parentesi; trigonometria in gradi, radianti o gradienti; potenze, logaritmi e fattoriale.
+- **Programmatore:** il numero in HEX, DEC, OCT e BIN contemporaneamente, parole da 8 a 64 bit, operazioni bit a bit e un pannello con i 64 bit.
+- **Memoria e cronologia:** MS, MR, M+, M− e MC con l’elenco dei numeri memorizzati, e la cronologia dei calcoli; copia e incolla di numeri o di calcoli interi.
+- **Aritmetica decimale** con 32 cifre significative: 0,1 + 0,2 fa 0,3.
+- Aspetto chiaro o scuro come il sistema, finestra ridimensionabile e **Mantieni in primo piano**.
+
+Richiede macOS 12 o successivo. [Scopri di più su My Calc](https://github.com/leoars/my-calc/blob/main/docs/readme/it.md)
+
 ## Come funzionano insieme le app
 
 - In My Explorer, il doppio clic su un file di testo apre My Notepad, e il menu contestuale offre **Modifica con My Notepad** e **Modifica con My Paint**.
-- La finestra **Informazioni su** di ciascuna app porta alle altre due.
+- La finestra **Informazioni su** di My Explorer, My Notepad e My Paint porta alle altre due; quella di My Calc, alle altre tre.
 - Nessuna dipende da un’altra: installa solo quelle che vuoi.
 
 ## Aggiornamenti
 
-Le tre app cercano nuove versioni all’apertura e installano quella che accetti; ognuna ha **Cerca aggiornamenti all’avvio** nelle Opzioni o nelle Impostazioni, con **Verifica ora**. My Notepad e My Paint lo fanno dalle versioni 1.0.5 e 1.0.1: una volta accettato, il nuovo programma di installazione viene verificato e si apre nel programma di installazione di macOS. Con una versione precedente, aggiorna una volta con questo programma di installazione o con quello di ciascuna app.
+Le quattro app cercano nuove versioni all’apertura e installano quella che accetti; ognuna ha **Cerca aggiornamenti all’avvio** nelle Opzioni o nelle Impostazioni, con **Verifica ora**. My Notepad e My Paint lo fanno dalle versioni 1.0.5 e 1.0.1: una volta accettato, il nuovo programma di installazione viene verificato e si apre nel programma di installazione di macOS. Con una versione precedente, aggiorna una volta con questo programma di installazione o con quello di ciascuna app.
 
 ## Creare il programma di installazione
 

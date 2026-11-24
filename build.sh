@@ -1,12 +1,12 @@
 #!/bin/bash
 # Builds the My Suite installer: one package per architecture that installs My Explorer,
-# My Notepad and My Paint, each one a choice the person can untick.
+# My Notepad, My Paint and My Calc, each one a choice the person can untick.
 #
 # It only assembles applications that were already released: the notarized installers of
-# My Notepad and My Paint and the notarized My Explorer application. Nothing is compiled here.
+# My Notepad, My Paint and My Calc and the notarized My Explorer application. Nothing is compiled here.
 #
 # Usage: ./build.sh
-#   EXPLORER_APP, NOTEPAD_DIST and PAINT_DIST point at the inputs (defaults: the sibling folders).
+#   EXPLORER_APP, NOTEPAD_DIST, PAINT_DIST and CALC_DIST point at the inputs (defaults: the sibling folders).
 #   With DEVELOPER_ID_INSTALLER set, the installers are signed; with NOTARY_PROFILE also set,
 #   Apple notarizes them and the ticket is stapled.
 set -euo pipefail
@@ -15,6 +15,7 @@ version=$(cat VERSION)
 explorer="${EXPLORER_APP:-../My Explorer - Private/dist/My Explorer.app}"
 notepad="${NOTEPAD_DIST:-../My Notepad - Private/dist}"
 paint="${PAINT_DIST:-../My Paint - Private/dist}"
+calc="${CALC_DIST:-../My Calc - Private/dist}"
 
 read_plist() { /usr/libexec/PlistBuddy -c "Print $2" "$1/Contents/Info.plist"; }
 newest() { ls "$1"/$2 2>/dev/null | sort -V | tail -1; }
@@ -56,15 +57,15 @@ for arch in arm64 x86_64; do
     work="$tmp/$arch"
     mkdir -p "$work"
     cp "$tmp/Explorer.pkg" "$work/Explorer.pkg"
-    # The component packages of the two editors come out of their released installers unchanged.
+    # The component packages of the other apps come out of their released installers unchanged.
     versions=()
-    for pair in "Notepad:$notepad:My-Notepad" "Paint:$paint:My-Paint"; do
-        IFS=: read -r part folder prefix <<<"$pair"
+    for pair in "Notepad:$notepad:My-Notepad:Editor" "Paint:$paint:My-Paint:Editor" "Calc:$calc:My-Calc:Calculator"; do
+        IFS=: read -r part folder prefix component <<<"$pair"
         source=$(newest "$folder" "$prefix-*-$arch.pkg")
         [[ -n "$source" ]] || { echo "Missing $prefix installer for $arch in $folder" >&2; exit 1; }
         xcrun stapler validate "$source" >/dev/null
         pkgutil --expand "$source" "$work/$part-expanded"
-        pkgutil --flatten "$work/$part-expanded/Editor.pkg" "$work/$part.pkg"
+        pkgutil --flatten "$work/$part-expanded/$component.pkg" "$work/$part.pkg"
         base=$(basename "$source" "-$arch.pkg")
         versions+=("${base#"$prefix"-}")
     done
@@ -74,7 +75,7 @@ for arch in arm64 x86_64; do
     cp -R resources "$work/resources"
     find "$work/resources" -type f \( -name welcome.html -o -name Localizable.strings \) -exec sed -i '' \
         -e "s/{SUITE}/$version/g" -e "s/{EXPLORER}/$explorer_version/g" -e "s/{NOTEPAD}/${versions[0]}/g" \
-        -e "s/{PAINT}/${versions[1]}/g" -e "s/{MIN}/${explorer_minimum%.0}/g" {} +
+        -e "s/{PAINT}/${versions[1]}/g" -e "s/{CALC}/${versions[2]}/g" -e "s/{MIN}/${explorer_minimum%.0}/g" {} +
     cat > "$work/Distribution" <<XML
 <?xml version="1.0" encoding="utf-8"?>
 <installer-gui-script minSpecVersion="2">
@@ -90,6 +91,7 @@ for arch in arm64 x86_64; do
     <line choice="explorer"/>
     <line choice="notepad"/>
     <line choice="paint"/>
+    <line choice="calc"/>
   </choices-outline>
   <choice id="explorer" title="My Explorer $explorer_version" description="explorer.description"
           enabled="explorerFits()" selected="explorerFits()">
@@ -101,9 +103,13 @@ for arch in arm64 x86_64; do
   <choice id="paint" title="My Paint ${versions[1]}" description="paint.description">
     <pkg-ref id="local.mypaint.editor.pkg"/>
   </choice>
+  <choice id="calc" title="My Calc ${versions[2]}" description="calc.description">
+    <pkg-ref id="local.mycalc.calculator.pkg"/>
+  </choice>
   <pkg-ref id="io.github.leoars.myexplorer.pkg" version="$explorer_version.$explorer_build">Explorer.pkg</pkg-ref>
   <pkg-ref id="local.mynotepad.editor.pkg" version="${versions[0]}">Notepad.pkg</pkg-ref>
   <pkg-ref id="local.mypaint.editor.pkg" version="${versions[1]}">Paint.pkg</pkg-ref>
+  <pkg-ref id="local.mycalc.calculator.pkg" version="${versions[2]}">Calc.pkg</pkg-ref>
 </installer-gui-script>
 XML
     name="My-Suite-$version-$arch.pkg"
@@ -113,7 +119,7 @@ XML
     pkgutil --expand-full "$work/$name" "$work/check"
     codesign --verify --deep --strict "$work/check/Explorer.pkg/Payload/My Explorer.app"
     test -x "$work/check/Explorer.pkg/Scripts/postinstall"
-    for item in "Notepad:My Notepad:MyNotepad" "Paint:My Paint:MyPaint"; do
+    for item in "Notepad:My Notepad:MyNotepad" "Paint:My Paint:MyPaint" "Calc:My Calc:MyCalc"; do
         IFS=: read -r part app binary <<<"$item"
         installed="$work/check/$part.pkg/Payload/$app.app"
         codesign --verify --strict "$installed"
@@ -129,6 +135,6 @@ XML
         fi
     fi
     mv "$work/$name" "dist/$name"
-    echo "dist/$name: My Explorer $explorer_version ($explorer_build), My Notepad ${versions[0]}, My Paint ${versions[1]}"
+    echo "dist/$name: My Explorer $explorer_version ($explorer_build), My Notepad ${versions[0]}, My Paint ${versions[1]}, My Calc ${versions[2]}"
     shasum -a 256 "dist/$name"
 done

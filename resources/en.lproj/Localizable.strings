@@ -1,3 +1,4 @@
 "explorer.description" = "File manager. Requires macOS {MIN} or later.";
 "notepad.description" = "Plain-text editor.";
 "paint.description" = "Image editor.";
+"calc.description" = "Calculator with Standard, Scientific and Programmer modes.";

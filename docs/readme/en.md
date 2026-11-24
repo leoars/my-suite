@@ -2,16 +2,16 @@
 
 [Português (Brasil)](../../README.md) · **English** · [Español](es.md) · [Français](fr.md) · [Deutsch](de.md) · [Italiano](it.md) · [日本語](ja.md) · [한국어](ko.md)
 
-Three simple, straightforward apps for macOS, with the menus and shortcuts you already know: a file manager, a text editor and an image editor. Each one has its own repository, version and download; this repository brings the three together in a single installer.
+Four simple, straightforward apps for macOS, with the menus and shortcuts you already know: a file manager, a text editor, an image editor and a calculator. Each one has its own repository, version and download; this repository brings the four together in a single installer.
 
 ## Install
 
-- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-arm64.pkg)**
-- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.5/My-Suite-1.0.5-x86_64.pkg)**
+- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-arm64.pkg)**
+- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.6/My-Suite-1.0.6-x86_64.pkg)**
 
-The installer brings My Explorer 1.0.3, My Notepad 1.0.6 and My Paint 1.0.1. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
+The installer brings My Explorer 1.0.3, My Notepad 1.0.6, My Paint 1.0.1 and My Calc 1.0. Open it and, under **Customize**, choose which apps to install; all four come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
 
-Requires macOS 12 or later. My Explorer requires macOS 14 or later: on earlier versions it appears unselected and the other two are installed normally.
+Requires macOS 12 or later. My Explorer requires macOS 14 or later: on earlier versions it appears unselected and the other three are installed normally.
 
 ## My Explorer
 
@@ -110,15 +110,30 @@ A simple image editor: open an image, draw with pencils, brushes, shapes and tex
 
 Requires macOS 12 or later. [Learn more about My Paint](https://github.com/leoars/my-paint/blob/main/docs/readme/en.md)
 
+## My Calc
+
+A simple calculator: do the math in Standard, Scientific or Programmer mode, with the keys and shortcuts you already know.
+
+![My Calc window in English, in Standard mode](../screenshots/calc-en.png)
+
+- **Standard:** the four operations, percent, reciprocal, square and square root, in the order the keys are pressed.
+- **Scientific:** operator precedence and parentheses; trigonometry in degrees, radians or gradians; powers, logarithms and factorial.
+- **Programmer:** the number in HEX, DEC, OCT and BIN at once, 8- to 64-bit words, bitwise operations and a panel with the 64 bits.
+- **Memory and history:** MS, MR, M+, M− and MC with a list of stored numbers, and a history of the calculations; copy and paste numbers or whole expressions.
+- **Decimal arithmetic** with 32 significant digits: 0.1 + 0.2 is 0.3.
+- Light or dark appearance following the system, a resizable window and **Keep on Top**.
+
+Requires macOS 12 or later. [Learn more about My Calc](https://github.com/leoars/my-calc/blob/main/docs/readme/en.md)
+
 ## How the apps work together
 
 - In My Explorer, double-clicking a text file opens My Notepad, and the context menu offers **Edit with My Notepad** and **Edit with My Paint**.
-- The **About** window of each app leads to the other two.
+- The **About** window of My Explorer, My Notepad and My Paint leads to the other two; My Calc’s leads to the other three.
 - None depends on another: install only the ones you want.
 
 ## Updates
 
-All three apps check for new versions at launch and install the one you accept; each has **Check for updates at startup** in its Options or Settings, with **Check now**. My Notepad and My Paint do it from versions 1.0.5 and 1.0.1: once you accept, the new installer is checked and opens in the macOS Installer. If you have an earlier version of them, update once with this installer or with each app's own.
+All four apps check for new versions at launch and install the one you accept; each has **Check for updates at startup** in its Options or Settings, with **Check now**. My Notepad and My Paint do it from versions 1.0.5 and 1.0.1: once you accept, the new installer is checked and opens in the macOS Installer. If you have an earlier version of them, update once with this installer or with each app's own.
 
 ## Building the installer
 

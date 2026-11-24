@@ -6,10 +6,10 @@ Three simple, straightforward apps for macOS, with the menus and shortcuts you a
 
 ## Install
 
-- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
-- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
+- **[Download for Apple Silicon (M-series)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
+- **[Download for Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
 
-The installer brings My Explorer 1.0.2, My Notepad 1.0.4 and My Paint 1.0. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
+The installer brings My Explorer 1.0.3, My Notepad 1.0.5 and My Paint 1.0.1. Open it and, under **Customize**, choose which apps to install; all three come selected. It is signed with Developer ID and notarized by Apple, and speaks English, Portuguese, Spanish, French, German, Italian, Japanese and Korean.
 
 Requires macOS 12 or later. My Explorer requires macOS 14 or later: on earlier versions it appears unselected and the other two are installed normally.
 
@@ -118,7 +118,7 @@ Requires macOS 12 or later. [Learn more about My Paint](https://github.com/leoar
 
 ## Updates
 
-My Explorer checks for new versions by itself and installs the one you accept. My Notepad and My Paint are updated by installing the new version, with this installer or with each app's own.
+All three apps check for new versions at launch and install the one you accept; each has **Check for updates at startup** in its Options or Settings, with **Check now**. My Notepad and My Paint do it from versions 1.0.5 and 1.0.1: once you accept, the new installer is checked and opens in the macOS Installer. If you have an earlier version of them, update once with this installer or with each app's own.
 
 ## Building the installer
 

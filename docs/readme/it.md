@@ -6,10 +6,10 @@ Tre app per macOS semplici e dirette, con i menu e le scorciatoie che conosci gi
 
 ## Installare
 
-- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
-- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
+- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
+- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
 
-Il programma di installazione include My Explorer 1.0.2, My Notepad 1.0.4 e My Paint 1.0. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
+Il programma di installazione include My Explorer 1.0.3, My Notepad 1.0.5 e My Paint 1.0.1. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e tre. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
 
 Richiede macOS 12 o successivo. My Explorer richiede macOS 14 o successivo: nelle versioni precedenti compare non selezionato e le altre due vengono installate normalmente.
 
@@ -118,7 +118,7 @@ Richiede macOS 12 o successivo. [Scopri di più su My Paint](https://github.com/
 
 ## Aggiornamenti
 
-My Explorer cerca da solo le nuove versioni e installa quella che accetti. My Notepad e My Paint si aggiornano installando la nuova versione, con questo programma di installazione o con quello di ciascuna app.
+Le tre app cercano nuove versioni all’apertura e installano quella che accetti; ognuna ha **Cerca aggiornamenti all’avvio** nelle Opzioni o nelle Impostazioni, con **Verifica ora**. My Notepad e My Paint lo fanno dalle versioni 1.0.5 e 1.0.1: una volta accettato, il nuovo programma di installazione viene verificato e si apre nel programma di installazione di macOS. Con una versione precedente, aggiorna una volta con questo programma di installazione o con quello di ciascuna app.
 
 ## Creare il programma di installazione
 

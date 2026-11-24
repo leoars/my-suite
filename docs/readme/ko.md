@@ -6,10 +6,10 @@
 
 ## 설치
 
-- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
-- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
+- **[Apple Silicon(M 시리즈)용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
+- **[Intel용 다운로드](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
 
-설치 프로그램에는 My Explorer 1.0.2, My Notepad 1.0.4, My Paint 1.0이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
+설치 프로그램에는 My Explorer 1.0.3, My Notepad 1.0.5, My Paint 1.0.1이 들어 있습니다. 설치 프로그램을 열고 **사용자화**에서 설치할 앱을 고르세요. 처음에는 세 가지가 모두 선택되어 있습니다. Developer ID로 서명되었고 Apple의 공증을 받았으며, 영어, 포르투갈어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어를 지원합니다.
 
 macOS 12 이상이 필요합니다. My Explorer는 macOS 14 이상이 필요하며, 이전 버전에서는 선택되지 않은 상태로 표시되고 나머지 두 앱은 정상적으로 설치됩니다.
 
@@ -118,7 +118,7 @@ macOS 12 이상이 필요합니다. [My Paint 자세히 보기](https://github.c
 
 ## 업데이트
 
-My Explorer는 새 버전을 스스로 확인하고, 사용자가 수락한 버전을 설치합니다. My Notepad와 My Paint는 이 설치 프로그램이나 각 앱의 설치 프로그램으로 새 버전을 설치하면 업데이트됩니다.
+세 앱 모두 앱을 열 때 새 버전을 확인하고, 사용자가 수락한 버전을 설치합니다. 각 앱의 옵션 또는 설정에 **시작할 때 업데이트 확인** 과 **지금 확인** 이 있습니다. My Notepad와 My Paint는 버전 1.0.5와 1.0.1부터 지원합니다. 수락하면 새 설치 프로그램을 확인한 뒤 macOS 설치 프로그램에서 엽니다. 그 이전 버전을 사용 중이라면 이 설치 프로그램이나 각 앱의 설치 프로그램으로 한 번만 업데이트하세요.
 
 ## 설치 프로그램 빌드
 

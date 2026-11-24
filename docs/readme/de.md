@@ -6,10 +6,10 @@ Drei einfache, geradlinige Apps für macOS, mit den Menüs und Tastenkürzeln, d
 
 ## Installieren
 
-- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
-- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
+- **[Für Apple Silicon (M-Serie) herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
+- **[Für Intel herunterladen](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
 
-Das Installationsprogramm enthält My Explorer 1.0.2, My Notepad 1.0.4 und My Paint 1.0. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle drei sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
+Das Installationsprogramm enthält My Explorer 1.0.3, My Notepad 1.0.5 und My Paint 1.0.1. Öffne es und wähle unter **Anpassen**, welche Apps installiert werden sollen; alle drei sind ausgewählt. Es ist mit Developer ID signiert und von Apple notarisiert und spricht Englisch, Portugiesisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Koreanisch.
 
 Erfordert macOS 12 oder neuer. My Explorer erfordert macOS 14 oder neuer: Auf älteren Versionen erscheint es nicht ausgewählt, und die beiden anderen werden normal installiert.
 
@@ -118,7 +118,7 @@ Erfordert macOS 12 oder neuer. [Mehr über My Paint](https://github.com/leoars/m
 
 ## Updates
 
-My Explorer sucht selbst nach neuen Versionen und installiert die, der du zustimmst. My Notepad und My Paint werden aktualisiert, indem du die neue Version installierst, mit diesem Installationsprogramm oder mit dem der jeweiligen App.
+Alle drei Apps suchen beim Öffnen nach neuen Versionen und installieren die, der du zustimmst; jede hat **Beim Start nach Updates suchen** in ihren Optionen oder Einstellungen, mit **Jetzt prüfen**. My Notepad und My Paint tun das ab den Versionen 1.0.5 und 1.0.1: Nach der Zustimmung wird das neue Installationspaket geprüft und im macOS-Installationsprogramm geöffnet. Mit einer älteren Version aktualisierst du einmal mit diesem Installationsprogramm oder mit dem der jeweiligen App.
 
 ## Das Installationsprogramm erstellen
 

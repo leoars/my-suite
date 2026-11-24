@@ -6,10 +6,10 @@ Tres aplicaciones para macOS sencillas y directas, con los menús y los atajos d
 
 ## Instalar
 
-- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
-- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
+- **[Descargar para Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
+- **[Descargar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
 
-El instalador incluye My Explorer 1.0.2, My Notepad 1.0.4 y My Paint 1.0. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las tres vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
+El instalador incluye My Explorer 1.0.3, My Notepad 1.0.5 y My Paint 1.0.1. Ábrelo y, en **Personalizar**, elige qué aplicaciones instalar; las tres vienen seleccionadas. Está firmado con Developer ID y notarizado por Apple, y está disponible en inglés, portugués, español, francés, alemán, italiano, japonés y coreano.
 
 Requiere macOS 12 o posterior. My Explorer requiere macOS 14 o posterior: en versiones anteriores aparece sin seleccionar y las otras dos se instalan con normalidad.
 
@@ -118,7 +118,7 @@ Requiere macOS 12 o posterior. [Más información sobre My Paint](https://github
 
 ## Actualizaciones
 
-My Explorer busca nuevas versiones por sí mismo e instala la que aceptes. My Notepad y My Paint se actualizan instalando la nueva versión, con este instalador o con el de cada aplicación.
+Las tres aplicaciones buscan nuevas versiones al abrirse e instalan la que aceptes; cada una tiene **Buscar actualizaciones al iniciar** en sus Opciones o Ajustes, con **Comprobar ahora**. My Notepad y My Paint lo hacen desde las versiones 1.0.5 y 1.0.1: al aceptar, el instalador nuevo se verifica y se abre en el Instalador de macOS. Si tienes una versión anterior de ellas, actualiza una vez con este instalador o con el de cada aplicación.
 
 ## Generar el instalador
 

@@ -6,10 +6,10 @@ Três aplicativos para macOS simples e diretos, com os menus e os atalhos de sem
 
 ## Instalar
 
-- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-arm64.pkg)**
-- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.3/My-Suite-1.0.3-x86_64.pkg)**
+- **[Baixar para Apple Silicon (série M)](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-arm64.pkg)**
+- **[Baixar para Intel](https://github.com/leoars/my-suite/releases/download/1.0.4/My-Suite-1.0.4-x86_64.pkg)**
 
-O instalador traz o My Explorer 1.0.2, o My Notepad 1.0.4 e o My Paint 1.0. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os três vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
+O instalador traz o My Explorer 1.0.3, o My Notepad 1.0.5 e o My Paint 1.0.1. Abra-o e, em **Personalizar**, escolha quais aplicativos instalar; os três vêm marcados. Ele é assinado com Developer ID e notarizado pela Apple, e fala português, inglês, espanhol, francês, alemão, italiano, japonês e coreano.
 
 Requer macOS 12 ou posterior. O My Explorer requer macOS 14 ou posterior: em versões anteriores ele aparece desmarcado e os outros dois são instalados normalmente.
 
@@ -118,7 +118,7 @@ Requer macOS 12 ou posterior. [Conheça o My Paint](https://github.com/leoars/my
 
 ## Atualizações
 
-O My Explorer verifica novas versões sozinho e instala a que você aceitar. O My Notepad e o My Paint são atualizados instalando a versão nova, por este instalador ou pelo de cada aplicativo.
+Os três aplicativos verificam novas versões ao abrir e instalam a que você aceitar; em cada um, a opção **Verificar novas versões ao abrir** fica nas Opções ou nos Ajustes, com **Verificar agora**. O My Notepad e o My Paint fazem isso desde as versões 1.0.5 e 1.0.1: ao aceitar, o instalador novo é conferido e abre no Instalador do macOS. Quem tem uma versão anterior deles atualiza uma vez por este instalador ou pelo de cada aplicativo.
 
 ## Gerar o instalador
 

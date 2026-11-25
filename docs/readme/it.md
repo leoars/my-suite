@@ -6,10 +6,10 @@ Quattro app per macOS semplici e dirette, con i menu e le scorciatoie che conosc
 
 ## Installare
 
-- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.8/My-Suite-1.0.8-arm64.pkg)**
-- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.8/My-Suite-1.0.8-x86_64.pkg)**
+- **[Scarica per Apple Silicon (serie M)](https://github.com/leoars/my-suite/releases/download/1.0.9/My-Suite-1.0.9-arm64.pkg)**
+- **[Scarica per Intel](https://github.com/leoars/my-suite/releases/download/1.0.9/My-Suite-1.0.9-x86_64.pkg)**
 
-Il programma di installazione include My Explorer 1.0.5, My Notepad 1.0.7, My Paint 1.0.2 e My Calc 1.0. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e quattro. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
+Il programma di installazione include My Explorer 1.0.6, My Notepad 1.0.7, My Paint 1.0.2 e My Calc 1.0. Aprilo e, in **Personalizza**, scegli quali app installare; sono selezionate tutte e quattro. È firmato con Developer ID e autenticato da Apple tramite notarizzazione, ed è disponibile in inglese, portoghese, spagnolo, francese, tedesco, italiano, giapponese e coreano.
 
 Richiede macOS 12 o successivo. My Explorer richiede macOS 14 o successivo: nelle versioni precedenti compare non selezionato e le altre tre vengono installate normalmente.
 
